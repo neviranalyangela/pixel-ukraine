@@ -1,0 +1,9 @@
+{
+  "id": "korosten",
+  "name": "Коростенський район",
+  "name_en": "Korosten Raion",
+  "oblast": "Житомирська область",
+  "country": "Україна",
+  "osm": { "relation": 11809205, "admin_level": 6, "name:uk": "Коростенський район", "wikidata": "Q102456379" },
+  "tile": 0.4
+}

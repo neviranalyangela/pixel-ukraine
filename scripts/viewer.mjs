@@ -11,11 +11,17 @@ import { args } from './lib.mjs';
 export function install(TRIP) {
   if (!existsSync(join(TRIP, 'data/index.json'))) throw Error('no data/index.json: run bake.mjs first');
   if (!existsSync(join(TRIP, 'art/kit.json'))) console.warn('no art/kit.json yet: run plan-art.mjs and placeholder-art.mjs (free); the viewer will draw without pictures');
-  const T = join(dirname(fileURLToPath(import.meta.url)), '../templates');
+  const T = join(dirname(fileURLToPath(import.meta.url)), '../templates'), ROOT = join(T, '..');
   const site = existsSync(join(TRIP, 'site.json')) ? JSON.parse(readFileSync(join(TRIP, 'site.json'), 'utf8')) : {};   // optional trip settings: "support": "https://…" puts a donation link on the start card and in the dock; "posthog": "phc_…" (and optional "posthog_host") turns on PostHog; "vote": true shows the city vote (it needs the Worker's /api/votes)
   const ph = typeof site.posthog === 'string' && /^ph[a-z]_[A-Za-z0-9]+$/.test(site.posthog) ? { key: site.posthog, host: /^https:\/\/[^\s"'<>]+$/.test(site.posthog_host || '') ? site.posthog_host.replace(/\/$/, '') : undefined } : {};   // PostHog only with a project key in site.json ({"posthog": "phc_…"}); no key, no analytics
   const { posthog, posthog_host, ...pub } = site, js = o => JSON.stringify(o).replace(/</g, '\\u003c');
   writeFileSync(join(TRIP, 'index.html'), readFileSync(join(T, 'viewer.html'), 'utf8').replace('/*PH*/{}/*/PH*/', () => js(ph)).replace('/*SITE*/{}/*/SITE*/', () => js(pub)).replace('/*VOTE*/false/*/VOTE*/', () => js(site.vote === true)).replace('/*SUP*/false/*/SUP*/', () => js(/^https:\/\//.test(site.support || '')))); copyFileSync(join(T, 'road.js'), join(TRIP, 'road.js')); copyFileSync(join(T, 'layout.js'), join(TRIP, 'layout.js'));
+  if (existsSync(join(T, 'regionmap.js'))) copyFileSync(join(T, 'regionmap.js'), join(TRIP, 'regionmap.js'));   // the region overview map screen: it reads regions/registry.json, so no regions means it stays asleep
+  if (existsSync(join(ROOT, 'regions/registry.json'))) {   // the regions (district maps): a folder of baked data plus one registry entry each (REGIONS.md)
+    const dst = join(TRIP, 'regions'); mkdirSync(dst, { recursive: true });
+    const cp = (src, rel) => { for (const f of readdirSync(src)) { const s = join(src, f), d = join(dst, rel ? join(rel, f) : f); if (/^(\.cache|\.)/.test(f) && f !== '.assetsignore') continue; if (statSync(s).isDirectory()) { mkdirSync(d, { recursive: true }); cp(s, rel ? join(rel, f) : f); } else copyFileSync(s, d); } };
+    cp(ROOT + '/regions', ''); console.log(`viewer: regions/ copied into ${join(TRIP, 'regions')} (the district maps)`);
+  }
   mkdirSync(join(TRIP, 'fonts'), { recursive: true }); for (const f of readdirSync(join(T, 'fonts'))) copyFileSync(join(T, 'fonts', f), join(TRIP, 'fonts', f));   // the self-hosted fonts and their licence (OFL.txt)
   mkdirSync(join(TRIP, 'sfx'), { recursive: true }); for (const f of readdirSync(join(T, 'sfx'))) if (f.endsWith('.mp3')) copyFileSync(join(T, 'sfx', f), join(TRIP, 'sfx', f));   // the sound loops: engines, steps, wind, city and country
 }

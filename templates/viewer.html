@@ -58,7 +58,7 @@
   #overwrap { touch-action: none; }
   body.over #dock, body.over #pedals, body.over #toasts, body.over #station, body.over #tags, body.over #radio, body.over #party, body.over #roster { display: none !important; }   /* the big map owns the screen (the party list covered it on a phone; the map shows every rider) */
   /* ---- immersion (Kyrylo, 14 Oct: «hide all HUDs, full size, only music and road»): the road canvas and the intro fade stay, every other layer hides, also any layer added later */
-  body.imm > :not(#c):not(#fade) { display: none !important; }
+  body.imm > :not(#c):not(#fade):not(#reg) { display: none !important; }
   body.imm.still, body.imm.still #c { cursor: none; }   /* the mouse still for 2 s */
   #dk-imm svg { display: block; margin: auto; }
 
@@ -139,6 +139,7 @@
   @media (max-height: 500px) { #dock #dk-imm { position: absolute; top: 64px; right: 34px; } #dk-imm svg { width: 12px; height: 12px; } }   /* a phone on its side: the corners key in the heart's column by V (party-near's riders key sits under the heart; a 5th key in the column reached the gas pedal at 360 px) */
   @media (pointer: fine) { body #dock > #dk-imm { display: block !important; } }   /* party-near shows the dock on a desktop with only its riders key: the corners key shows there too (review, 15 Oct) */
   @media (max-height: 500px) { #dock { left: auto; right: calc(10px + env(safe-area-inset-right, 0px)); top: calc(122px + env(safe-area-inset-top, 0px)); transform: none; gap: 5px; } #dock button, #dock a { width: 28px; height: 28px; font-size: 11px; } #dock a { font-size: 13px; position: absolute; top: 0; right: 34px; } #dock { gap: 4px; } #dock #dk-party { position: absolute; top: 32px; right: 34px; } }   /* the riders button under the heart: a fifth one in the column would sit on the gas pedal */   /* the heart left of FM: under the others it would sit on the gas pedal */   /* a phone on its side: the dock under the next stop, above the gas pedal */
+  @media (max-height: 500px) { #dock #dk-reg { position: absolute; top: 96px; right: 34px; } }   /* the region map key under the corners key, off the column: the column must not reach the gas pedal */
   @media (pointer: coarse) { #pedals { display: block; } #dock { display: flex; } #st-keys { display: none; } }
   @media (pointer: fine) { #dock { display: flex; } #dock > :not(#dk-party) { display: none !important; } }   /* a mouse has no menu: the riders button alone where the dock is (P works too) */
   @media (pointer: fine) { #st-touch { display: none; } }
@@ -358,14 +359,14 @@ if (PHC.key && !/[?&]ph=0\b/.test(location.search)) { !function(t,e){var o,n,p,r
   <div id="next"></div>
   <div id="toasts"></div>
   <div id="overlay"><div id="overwrap"><canvas id="over" width="1020" height="660"></canvas><div id="overhint">клік на маршрут: стрибок туди · колесо або два пальці: масштаб · тягни: рух · esc</div><div id="ovzoom"><button id="ovplus" type="button">+</button><button id="ovminus" type="button">−</button></div>
-    <div id="overtools"><button id="gmaps" type="button">Google Maps</button><button id="sview" type="button">Street View</button><button id="overclose" type="button">Close</button></div></div></div>
+    <div id="overtools"><button id="ovreg" type="button" hidden>Райони</button><button id="gmaps" type="button">Google Maps</button><button id="sview" type="button">Street View</button><button id="overclose" type="button">Close</button></div></div></div>
   <div id="station"></div>
   <div id="mm"></div>
   <div id="radio" title="Click: play or stop · R: next station"><i></i><span>radio</span><b id="stname"></b><em id="stauto" title="A: місцеве радіо в містах, увімкнути або вимкнути">авто</em></div>
   <div id="party"><h3 id="party-h" role="button" tabindex="0" title="хто на дорозі · P" aria-controls="roster"></h3><div id="party-l"></div></div><div id="roster" role="dialog" aria-label="хто на дорозі"><div id="ro-h"><span id="ro-t"></span><button type="button" id="ro-x" aria-label="закрити">×</button></div><div id="ro-l"></div><div id="ro-e" hidden>тут поки лише ти</div></div><div id="tags"></div><div id="chat" class="off" role="log" aria-label="чат"></div><input id="chatin" class="off" type="text" maxlength="200" placeholder="повідомлення · Enter" autocomplete="off" aria-label="повідомлення в чат">
   <div id="chatmode" class="low" role="group" aria-label="кому пише чат"><button type="button" data-all="0" aria-pressed="false" title="чат з тими, хто в межах 100 км по дорозі">поруч · 100 км</button><button type="button" data-all="1" aria-pressed="true" title="чат з усіма на дорозі, у кого теж увімкнено «уся дорога»">уся дорога</button></div>
   <div id="pedals"><div class="pedal" id="brake">стоп</div><div class="pedal" id="gas">газ</div></div>
-  <div id="dock"><button type="button" id="dk-radio" title="radio">FM</button><button type="button" id="dk-snd" title="sound">♪</button><button type="button" id="dk-veh" title="vehicle">V</button><button type="button" id="dk-mm" title="mad max">X</button><button type="button" id="dk-party" title="хто на дорозі · P" aria-label="хто на дорозі" aria-expanded="false" aria-controls="roster" hidden><svg width="20" height="20" viewBox="0 0 10 10" fill="currentColor" shape-rendering="crispEdges" aria-hidden="true"><path d="M1 1h3v3H1zM1 5h2v1h1v3H0V6h1zM6 2h3v3H6zM6 6h3v1h1v3H5V7h1z"/></svg></button><button type="button" id="dk-imm" title="лише дорога · H" aria-label="лише дорога: сховати все, крім дороги"><svg viewBox="0 0 9 9" width="14" height="14" shape-rendering="crispEdges" aria-hidden="true" focusable="false"><path fill="currentColor" d="M0 0h3v1H1v2H0zM6 0h3v3H8V1H6zM0 6h1v2h2v1H0zM8 6h1v3H6V8h2z"/></svg></button><a id="dk-sup" target="_blank" rel="noopener" title="Підтримати гру" aria-label="Підтримати гру" hidden>♥</a></div>
+  <div id="dock"><button type="button" id="dk-reg" title="мапа району · K" hidden>◱</button><button type="button" id="dk-radio" title="radio">FM</button><button type="button" id="dk-snd" title="sound">♪</button><button type="button" id="dk-veh" title="vehicle">V</button><button type="button" id="dk-mm" title="mad max">X</button><button type="button" id="dk-party" title="хто на дорозі · P" aria-label="хто на дорозі" aria-expanded="false" aria-controls="roster" hidden><svg width="20" height="20" viewBox="0 0 10 10" fill="currentColor" shape-rendering="crispEdges" aria-hidden="true"><path d="M1 1h3v3H1zM1 5h2v1h1v3H0V6h1zM6 2h3v3H6zM6 6h3v1h1v3H5V7h1z"/></svg></button><button type="button" id="dk-imm" title="лише дорога · H" aria-label="лише дорога: сховати все, крім дороги"><svg viewBox="0 0 9 9" width="14" height="14" shape-rendering="crispEdges" aria-hidden="true" focusable="false"><path fill="currentColor" d="M0 0h3v1H1v2H0zM6 0h3v3H8V1H6zM0 6h1v2h2v1H0zM8 6h1v3H6V8h2z"/></svg></button><a id="dk-sup" target="_blank" rel="noopener" title="Підтримати гру" aria-label="Підтримати гру" hidden>♥</a></div>
 </div>
 <div id="fade"></div>
 <!-- The landing (start screen): the game waits frozen under it until «Поїхали». The ids st-* and go are the ones the game's startScreen() fills and wires.
@@ -774,6 +775,7 @@ if (PHC.key && !/[?&]ph=0\b/.test(location.search)) { !function(t,e){var o,n,p,r
 
 <script type="module">
 import { createRoad } from './road.js';
+import { createRegionMap } from './regionmap.js';
 const $ = id => document.getElementById(id), params = new URLSearchParams(location.search), CHECK = params.get('check') === '1';
 const SITE = /*SITE*/{}/*/SITE*/;   // this trip's settings from TRIP/site.json (viewer.mjs puts them here): support = a donation link for the start card and the dock
 if (/^https:\/\//.test(SITE.support || '')) for (const id of ['st-sup', 'dk-sup']) { $(id).href = SITE.support; $(id).hidden = false; }
@@ -783,6 +785,8 @@ const keep = r => { for (const k of ['setVehicle', 'setTime', 'setJam', 'setLift
 let road = keep(await createRoad($('c'), { width: W, height: params.has('h') ? +params.get('h') : heightFor(), check: CHECK, smooth: SMOOTH, traffic: params.get('traffic') !== '0', time: params.get('time') || 'auto' }));
 const { IDX, LEN } = road;
 const LOOPED = !!IDX.from && IDX.from === IDX.to;   // a round trip (Київ → Київ): its two ends are the same place
+let REG = null; try { REG = createRegionMap({ onOpen: () => { try { immSet(false); } catch {} } }); } catch { REG = null; }   // the region overview map (K, the dock's ◱, «Райони» on the big map), when this build has regions/
+window.REG = REG;   // for the tests: the map's own state, like OV.world
 
 // ------------------------------------------------------------ speed: one throttle, scrolled up and down
 // speed (m/s) = sign(throttle) * 3 * (e^|throttle| - 1): a crawl near zero, very fast at the top (throttle 6.5 is
@@ -791,8 +795,8 @@ const TOP = 6.5, toSpeed = t => Math.sign(t) * 3 * (Math.exp(Math.abs(t)) - 1), 
 let pos = Math.max(0, Math.min(LEN - 1, +(params.get('km') || 0) * 1000)) || 0, throttle = Math.max(-TOP, Math.min(TOP, toThrottle(+(params.get('speed') ?? 60) / 3.6))) || 0, speed = 0, paused = params.has('paused');   // ?speed= and ?km= are clamped: a URL speed past the top throttle broke the ride (a tester, 14 Oct)
 const nudge = d => { throttle = Math.max(-TOP, Math.min(TOP, throttle + d)); if (Math.abs(throttle) < 0.02) throttle = 0; paused = false; };
 const landing = () => !!(window.__landing && window.__landing.on);   // the landing is up: the ride stays frozen and the page scrolls as a page
-addEventListener('wheel', e => { if (landing() || (e.target.closest && e.target.closest('#roster, #party-l.cap'))) return; e.preventDefault(); nudge(e.deltaY * (e.deltaMode === 1 ? 16 : e.deltaMode === 2 ? 400 : 1) * 0.0025); }, { passive: false });
-const onCard = e => landing() || !$('start').classList.contains('off') || $('overlay').classList.contains('open') || e.target.closest('#start, #overlay, #party-l.cap, #roster');   // the landing and the big map scroll and tap as usual
+addEventListener('wheel', e => { if (landing() || (e.target.closest && e.target.closest('#roster, #party-l.cap, #reg'))) return; e.preventDefault(); nudge(e.deltaY * (e.deltaMode === 1 ? 16 : e.deltaMode === 2 ? 400 : 1) * 0.0025); }, { passive: false });
+const onCard = e => landing() || !$('start').classList.contains('off') || $('overlay').classList.contains('open') || document.body.classList.contains('reg') || e.target.closest('#start, #overlay, #party-l.cap, #roster');   // the landing, the big map and the region map scroll and tap as usual
 let touchY = null; addEventListener('touchstart', e => { touchY = onCard(e) ? null : e.touches[0].clientY; }, { passive: true });
 addEventListener('touchmove', e => { if (touchY == null) return; const y = e.touches[0].clientY; nudge((touchY - y) * 0.012); touchY = y; e.preventDefault(); }, { passive: false });
 addEventListener('touchend', () => { touchY = null; });
@@ -850,8 +854,9 @@ addEventListener('keydown', e => {   // letters by e.code (the key's place), so 
   else if (e.code === 'KeyA') radioAuto(!ST.auto);
   else if (e.code === 'KeyH') { if (!e.repeat) immSet(!IMM.on, 'key'); }
   else if (e.key === 'Escape' && IMM.on) immSet(false);
-  else if (e.key === 'Escape') { if (RO.open) roOpen(false); else overOpen(false); }   // the riders panel first, then the big map
+  else if (e.key === 'Escape') { if (REG && REG.isOpen()) REG.close(); else if (RO.open) roOpen(false); else overOpen(false); }   // the region map first, then the riders panel, then the big map
   else if (e.code === 'KeyO') overOpen(!$('overlay').classList.contains('open'));
+  else if (e.code === 'KeyK' && REG) REG.toggle();   // K: the region overview map (districts, Phase 1)
   else if (e.code === 'KeyP') roOpen(!RO.open);   // P: the riders panel (Kyrylo, 14 Oct)
 });
 
@@ -901,10 +906,11 @@ const lineAt = m => { const t = m * (CUM.at(-1) / Math.max(1, LEN)); let lo = 0,
 const seaPath = (a, b) => { if (LINE.length < 2 || !OV) return []; const A = lineAt(a), Bq = lineAt(b), ip = q => { const p = LINE[q.lo], n = LINE[Math.min(LINE.length - 1, q.lo + 1)]; return OV.B([p[0] + (n[0] - p[0]) * q.f, p[1] + (n[1] - p[1]) * q.f]); };   // the overview's route between two metres, ends cut exactly (a stretch inside one segment used to be skipped)
   return [ip(A), ...OV.R.slice(A.lo + 1, Bq.lo + 1), ip(Bq)]; };
 const gmaps = () => { const ll = lonLatAt(pos); if (ll) window.open(`https://www.google.com/maps?q=${ll[1].toFixed(5)},${ll[0].toFixed(5)}&z=14`, '_blank', 'noopener'); };
-const overOpen = v => { if (v) { immSet(false); try { roOpen(false); } catch {} } $('overlay').classList.toggle('open', v); document.body.classList.toggle('over', v); try { worldPoll(v); } catch {} if (v) overview(); };
+const overOpen = v => { if (v) { immSet(false); if (REG && REG.isOpen()) REG.close(); try { roOpen(false); } catch {} } $('overlay').classList.toggle('open', v); document.body.classList.toggle('over', v); try { worldPoll(v); } catch {} if (v) overview(); };
 const sview = () => { const ll = lonLatAt(pos); if (!ll) return; const hd = ((road.roadAt(pos).hd || 0) * 180 / Math.PI + 360) % 360; window.open(`https://www.google.com/maps?q=&layer=c&cbll=${ll[1].toFixed(5)},${ll[0].toFixed(5)}&cbp=11,${hd.toFixed(0)},0,0,0`, '_blank', 'noopener'); };
 $('sview').addEventListener('click', sview);
 $('mapwrap').addEventListener('click', () => overOpen(true)); $('overclose').addEventListener('click', () => overOpen(false)); $('gmaps').addEventListener('click', gmaps);
+if (REG) { $('ovreg').hidden = false; $('ovreg').addEventListener('click', () => { overOpen(false); REG.open(); }); }   // «Райони»: the region map screen (Phase 1), from the big map
 $('overlay').addEventListener('click', e => { if (e.target === $('overlay')) overOpen(false); });
 
 // ------------------------------------------------------------ the overview: a pixel map of the country (outline and regions from data/outline.json and data/borders.json)
@@ -1197,6 +1203,7 @@ function sndUpdate() {
   const town = !!road.roadAt(pos).town, night = road.tod.dark > 0.5; set('city', town ? 0.22 * (night ? 0.5 : 1) : 0); set('country', town ? 0 : 0.28 * (night ? 0.8 : 1), night ? 0.9 : 1);
 }
 $('dk-radio').addEventListener('click', () => { if (ST.on) radioNext(); else radioPlay(); }); $('dk-snd').addEventListener('click', () => sndToggle()); $('dk-veh').addEventListener('click', () => vehicleNext()); $('dk-mm').addEventListener('click', () => madmaxToggle());
+if (REG) { $('dk-reg').hidden = false; $('dk-reg').addEventListener('click', () => REG.toggle()); }   // the touch dock's way in: the region map (K on a keyboard)
 function sndToggle() { SND.on = !SND.on; if (SND.on) sndStart(); $('station').textContent = SND.on ? 'звук увімкнено' : 'звук вимкнено'; $('station').classList.add('show'); clearTimeout(stT); stT = setTimeout(() => $('station').classList.remove('show'), 1800); }
 for (const ev of ['keydown', 'wheel', 'pointerdown', 'touchend', 'click']) addEventListener(ev, sndStart, { passive: true });
 const sndWake = () => { if (SND.ctx && SND.ctx.state !== 'running') SND.ctx.resume().catch(() => {}); }; for (const ev of ['touchend', 'click', 'keydown']) addEventListener(ev, sndWake, { passive: true }); document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') sndWake(); else if (SND.ctx && SND.ctx.state === 'running') SND.ctx.suspend().catch(() => {}); });   // hidden: the ride stands still, so the engine and the wind go quiet (the radio plays on)

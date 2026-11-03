@@ -1,0 +1,6024 @@
+[
+  {
+    "name": "Козулі",
+    "qid": "Q122069",
+    "kind": "attraction",
+    "ll": [
+      29.23714,
+      50.759224
+    ],
+    "osm": "n5387961275",
+    "tags": {
+      "tourism": "artwork"
+    },
+    "links": 108,
+    "desc": "species of mammal",
+    "score": 109
+  },
+  {
+    "name": "Підкова",
+    "qid": "Q192130",
+    "kind": "attraction",
+    "ll": [
+      29.267331,
+      50.76077
+    ],
+    "osm": "n6357070804",
+    "tags": {
+      "tourism": "artwork"
+    },
+    "links": 76,
+    "desc": "item designed to protect a horse's hoof from wear",
+    "score": 77
+  },
+  {
+    "name": "Су-7БМ",
+    "qid": "Q645903",
+    "kind": "monument",
+    "ll": [
+      28.806242,
+      51.334235
+    ],
+    "osm": "n7075453945",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 29,
+    "desc": "1943 self-propelled 76 mm gun",
+    "score": 30
+  },
+  {
+    "name": "ГАЗ-АА",
+    "qid": "Q1484719",
+    "kind": "monument",
+    "ll": [
+      28.782516,
+      51.331334
+    ],
+    "osm": "n7074446441",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 19,
+    "desc": "first generation of truck by «GAZ», produced under license from the «Ford».",
+    "score": 20
+  },
+  {
+    "name": "БС-3",
+    "qid": "Q370036",
+    "kind": "monument",
+    "ll": [
+      28.800861,
+      51.327152
+    ],
+    "osm": "n7074446442",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 18,
+    "desc": "anti-tank and field gun",
+    "score": 19
+  },
+  {
+    "name": "Героям Небесної Сотні",
+    "qid": "Q15642845",
+    "kind": "monument",
+    "ll": [
+      29.248909,
+      50.76851
+    ],
+    "osm": "n5009286818",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 17,
+    "desc": "people who have been killed during the 2013–2014 protests in Ukraine",
+    "score": 18
+  },
+  {
+    "name": "Природний заповідник «Древлянський»",
+    "qid": "Q4167847",
+    "kind": "park",
+    "ll": [
+      29.154572,
+      51.129721
+    ],
+    "osm": "r6773831",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 7,
+    "desc": "nature reserve in Zhytomyr Oblast, Ukraine",
+    "score": 16
+  },
+  {
+    "name": "Поліський природний заповідник",
+    "qid": "Q4369780",
+    "kind": "park",
+    "ll": [
+      28.023693,
+      51.469632
+    ],
+    "osm": "w404227805",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 6,
+    "desc": "nature reserve in Zhytomyr Oblast, Ukraine",
+    "score": 14
+  },
+  {
+    "name": "Князь Мал",
+    "qid": "Q2361453",
+    "kind": "monument",
+    "ll": [
+      29.238304,
+      50.758664
+    ],
+    "osm": "w694439150",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 9,
+    "desc": "10th century Slavic noble",
+    "score": 10
+  },
+  {
+    "name": "Гідрологічний заказник «Хвощове болото»",
+    "qid": "Q28705241",
+    "kind": "park",
+    "ll": [
+      28.63539,
+      51.119039
+    ],
+    "osm": "w464556268",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 2,
+    "desc": "hydrological reserve in Zhytomyr Oblast, Ukraine",
+    "score": 6
+  },
+  {
+    "name": "Гідрологічний заказник «Лозанове»",
+    "qid": "Q28705229",
+    "kind": "park",
+    "ll": [
+      28.652806,
+      51.118622
+    ],
+    "osm": "w464556848",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 2,
+    "desc": "hydrological reserve in Zhytomyr Oblast, Ukraine",
+    "score": 6
+  },
+  {
+    "name": "Ландшафтний заказник «Михайловичі»",
+    "qid": "Q28705174",
+    "kind": "park",
+    "ll": [
+      28.599354,
+      51.025082
+    ],
+    "osm": "w464556850",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 2,
+    "desc": "landscape reserve in Zhytomyr Oblast, Ukraine",
+    "score": 6
+  },
+  {
+    "name": "Заказник Рихти",
+    "qid": "Q22132361",
+    "kind": "park",
+    "ll": [
+      28.837262,
+      50.782957
+    ],
+    "osm": "w464556853",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 2,
+    "desc": "hydrological reserve in Zhytomyr Oblast, Ukraine",
+    "score": 6
+  },
+  {
+    "name": "Заказник \"Кутне\"",
+    "qid": "Q17095336",
+    "kind": "park",
+    "ll": [
+      29.17469,
+      51.584778
+    ],
+    "osm": "w464782157",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 2,
+    "desc": "general zoological reserve in Zhytomyr Oblast, Ukraine",
+    "score": 6
+  },
+  {
+    "name": "Парк ім. Миклухо-Маклая",
+    "qid": "Q20083618",
+    "kind": "park",
+    "ll": [
+      29.25124,
+      50.768662
+    ],
+    "osm": "r6743242",
+    "tags": {
+      "leisure": "park"
+    },
+    "links": 2,
+    "desc": "park-monument of landscape art in Zhytomyr Oblast, Ukraine",
+    "score": 6
+  },
+  {
+    "name": "Заказник місцевого значення \"Гамарня\"",
+    "qid": "Q22132237",
+    "kind": "park",
+    "ll": [
+      29.183857,
+      50.770025
+    ],
+    "osm": "r7524495",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 2,
+    "desc": "landscape reserve in Zhytomyr Oblast, Ukraine",
+    "score": 6
+  },
+  {
+    "name": "Гідрологічний заказник місцевого значення \"Галове\"",
+    "qid": "Q12094111",
+    "kind": "park",
+    "ll": [
+      29.478609,
+      50.805185
+    ],
+    "osm": "r8196382",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 2,
+    "desc": "hydrological reserve in Zhytomyr Oblast, Ukraine",
+    "score": 6
+  },
+  {
+    "name": "Древлянські джерела",
+    "qid": "Q124758177",
+    "kind": "museum",
+    "ll": [
+      28.803474,
+      51.328675
+    ],
+    "osm": "n13021192622",
+    "tags": {
+      "tourism": "museum"
+    },
+    "links": 1,
+    "desc": "",
+    "score": 4
+  },
+  {
+    "name": "Заказник \"Борутинський\"",
+    "qid": "Q28705267",
+    "kind": "park",
+    "ll": [
+      29.148916,
+      51.615817
+    ],
+    "osm": "w464782148",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 1,
+    "desc": "general zoological reserve in Zhytomyr Oblast, Ukraine",
+    "score": 4
+  },
+  {
+    "name": "ДОТ М2, КоУР",
+    "qid": null,
+    "kind": "castle",
+    "ll": [
+      28.061907,
+      51.075989
+    ],
+    "osm": "n3887659117",
+    "tags": {
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Артелерійський ДОТ, КоУР",
+    "qid": null,
+    "kind": "castle",
+    "ll": [
+      27.981305,
+      51.072151
+    ],
+    "osm": "n3990905543",
+    "tags": {
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "ДОТ М2, КоУР",
+    "qid": null,
+    "kind": "castle",
+    "ll": [
+      28.08773,
+      51.064281
+    ],
+    "osm": "n3990905550",
+    "tags": {
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "ДОТ М2, КоУР",
+    "qid": null,
+    "kind": "castle",
+    "ll": [
+      27.983114,
+      51.070506
+    ],
+    "osm": "n3990905551",
+    "tags": {
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "ДОТ М2, КоУР",
+    "qid": null,
+    "kind": "castle",
+    "ll": [
+      27.997062,
+      51.070933
+    ],
+    "osm": "n3990905552",
+    "tags": {
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "ДОТ М2, КоУР",
+    "qid": null,
+    "kind": "castle",
+    "ll": [
+      27.970826,
+      51.072333
+    ],
+    "osm": "n3990905553",
+    "tags": {
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "ДОТ М2, КоУР",
+    "qid": null,
+    "kind": "castle",
+    "ll": [
+      27.979459,
+      51.072737
+    ],
+    "osm": "n3990905554",
+    "tags": {
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Командний(двоповерховий) ДОТ, КоУР",
+    "qid": null,
+    "kind": "castle",
+    "ll": [
+      27.980515,
+      51.079499
+    ],
+    "osm": "n3990905555",
+    "tags": {
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "ДОТ М2, КоУР",
+    "qid": null,
+    "kind": "castle",
+    "ll": [
+      27.975545,
+      51.084006
+    ],
+    "osm": "n3990905556",
+    "tags": {
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Командний(двоповерховий) ДОТ, КоУР",
+    "qid": null,
+    "kind": "castle",
+    "ll": [
+      27.977704,
+      51.084364
+    ],
+    "osm": "n3990907057",
+    "tags": {
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "ДОТ М2, КоУР",
+    "qid": null,
+    "kind": "castle",
+    "ll": [
+      27.998625,
+      51.083295
+    ],
+    "osm": "n3992723076",
+    "tags": {
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "ДОТ М2, КоУР",
+    "qid": null,
+    "kind": "castle",
+    "ll": [
+      28.079962,
+      51.089631
+    ],
+    "osm": "n4001589277",
+    "tags": {
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "ДОТ М1, КоУР",
+    "qid": null,
+    "kind": "castle",
+    "ll": [
+      27.941403,
+      51.122002
+    ],
+    "osm": "n4403029397",
+    "tags": {
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "ДОТ М1, КоУР",
+    "qid": null,
+    "kind": "castle",
+    "ll": [
+      27.936972,
+      51.124163
+    ],
+    "osm": "n4403029398",
+    "tags": {
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "ДОТ М1, КоУР",
+    "qid": null,
+    "kind": "castle",
+    "ll": [
+      27.931972,
+      51.125424
+    ],
+    "osm": "n4403029399",
+    "tags": {
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "ДОТ М2, КоУР",
+    "qid": null,
+    "kind": "castle",
+    "ll": [
+      27.982554,
+      51.078644
+    ],
+    "osm": "n4403029403",
+    "tags": {
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "ДОТ М2, КоУР",
+    "qid": null,
+    "kind": "castle",
+    "ll": [
+      27.939343,
+      51.120542
+    ],
+    "osm": "n4403029404",
+    "tags": {
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "ДОТ М2, КоУР",
+    "qid": null,
+    "kind": "castle",
+    "ll": [
+      27.92833,
+      51.12623
+    ],
+    "osm": "n4403029405",
+    "tags": {
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Локомотивного депо",
+    "qid": null,
+    "kind": "museum",
+    "ll": [
+      28.606902,
+      50.982428
+    ],
+    "osm": "n4407742092",
+    "tags": {
+      "tourism": "museum"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Скеля",
+    "qid": null,
+    "kind": "museum",
+    "ll": [
+      28.648674,
+      50.947367
+    ],
+    "osm": "n4407815490",
+    "tags": {
+      "tourism": "museum"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Древлянський парк",
+    "qid": "Q97198659",
+    "kind": "attraction",
+    "ll": [
+      28.648274,
+      50.948228
+    ],
+    "osm": "n4407815689",
+    "tags": {
+      "tourism": "attraction"
+    },
+    "links": 1,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Миклухо-Маклай",
+    "qid": null,
+    "kind": "museum",
+    "ll": [
+      29.173122,
+      50.778631
+    ],
+    "osm": "n4741948926",
+    "tags": {
+      "tourism": "museum"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Словечанський музей партизанської слави Полісся",
+    "qid": null,
+    "kind": "museum",
+    "ll": [
+      28.343258,
+      51.382241
+    ],
+    "osm": "n4979727128",
+    "tags": {
+      "tourism": "museum"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Володимир Великий",
+    "qid": "Q30974830",
+    "kind": "monument",
+    "ll": [
+      28.64702,
+      50.949411
+    ],
+    "osm": "n5986535785",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 1,
+    "desc": "monument in Korosten, Ukraine",
+    "score": 2
+  },
+  {
+    "name": "Княгиня Ольга",
+    "qid": "Q30962977",
+    "kind": "monument",
+    "ll": [
+      28.649184,
+      50.948174
+    ],
+    "osm": "n5986616585",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 1,
+    "desc": "monument in Korosten, Ukraine",
+    "score": 2
+  },
+  {
+    "name": "Парк Червона гірка",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.666773,
+      50.951644
+    ],
+    "osm": "n6420555927",
+    "tags": {
+      "leisure": "park"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Музей Ліцею №1 імені Ніни Сосніної",
+    "qid": null,
+    "kind": "museum",
+    "ll": [
+      29.246361,
+      50.767314
+    ],
+    "osm": "n6542126451",
+    "tags": {
+      "tourism": "museum"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "ДОТ М2, КоУР",
+    "qid": null,
+    "kind": "castle",
+    "ll": [
+      28.058049,
+      51.105955
+    ],
+    "osm": "n6783706770",
+    "tags": {
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Музей фарфору",
+    "qid": null,
+    "kind": "museum",
+    "ll": [
+      28.648641,
+      50.949843
+    ],
+    "osm": "n6819602018",
+    "tags": {
+      "tourism": "museum"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "ДОТ, КоУР",
+    "qid": null,
+    "kind": "castle",
+    "ll": [
+      27.974858,
+      51.105646
+    ],
+    "osm": "n7474672436",
+    "tags": {
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "ДОТ, КоУР",
+    "qid": null,
+    "kind": "castle",
+    "ll": [
+      27.983586,
+      51.108617
+    ],
+    "osm": "n7474672458",
+    "tags": {
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "ДОТ М2, КоУР",
+    "qid": null,
+    "kind": "castle",
+    "ll": [
+      27.92522,
+      51.147922
+    ],
+    "osm": "n7776656975",
+    "tags": {
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "ДОТ М2, КоУР",
+    "qid": null,
+    "kind": "castle",
+    "ll": [
+      27.950884,
+      51.139915
+    ],
+    "osm": "n7876951702",
+    "tags": {
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "ДОТ М1, КоУР",
+    "qid": null,
+    "kind": "castle",
+    "ll": [
+      27.963927,
+      51.176214
+    ],
+    "osm": "n8246006965",
+    "tags": {
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "ДОТ М2, КоУР",
+    "qid": null,
+    "kind": "castle",
+    "ll": [
+      27.965798,
+      51.179414
+    ],
+    "osm": "n8246006966",
+    "tags": {
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "ДОТ М2, КоУР",
+    "qid": null,
+    "kind": "castle",
+    "ll": [
+      27.976899,
+      51.148692
+    ],
+    "osm": "n8246007033",
+    "tags": {
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Міський краєзнавчий музей",
+    "qid": null,
+    "kind": "museum",
+    "ll": [
+      29.244873,
+      50.771935
+    ],
+    "osm": "n9591350094",
+    "tags": {
+      "tourism": "museum"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Народицький краєзнавчий музей",
+    "qid": null,
+    "kind": "museum",
+    "ll": [
+      29.081755,
+      51.202232
+    ],
+    "osm": "n11992261925",
+    "tags": {
+      "tourism": "museum"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Залишки мосту",
+    "qid": null,
+    "kind": "castle",
+    "ll": [
+      27.649555,
+      51.22466
+    ],
+    "osm": "n12565808474",
+    "tags": {
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Малинський підводний музей",
+    "qid": null,
+    "kind": "museum",
+    "ll": [
+      29.322311,
+      50.755434
+    ],
+    "osm": "n13148988601",
+    "tags": {
+      "tourism": "museum"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "фів",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.567918,
+      50.919835
+    ],
+    "osm": "n13260159334",
+    "tags": {
+      "leisure": "park"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Руїни колгоспу",
+    "qid": null,
+    "kind": "castle",
+    "ll": [
+      28.704854,
+      51.028019
+    ],
+    "osm": "n14155501091",
+    "tags": {
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Парк Перемоги",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.656929,
+      50.948634
+    ],
+    "osm": "w74694786",
+    "tags": {
+      "leisure": "park"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Краєзнавчий музей",
+    "qid": null,
+    "kind": "museum",
+    "ll": [
+      28.647731,
+      50.950941
+    ],
+    "osm": "w169026771",
+    "tags": {
+      "tourism": "museum"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Краєзнавчий музей Поліського природного заповідника",
+    "qid": null,
+    "kind": "museum",
+    "ll": [
+      28.10126,
+      51.535399
+    ],
+    "osm": "w244406739",
+    "tags": {
+      "tourism": "museum"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Парк ім. Сабурова",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.78395,
+      51.330459
+    ],
+    "osm": "w316382572",
+    "tags": {
+      "leisure": "park"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Краєзнавчий музей",
+    "qid": null,
+    "kind": "museum",
+    "ll": [
+      27.653856,
+      51.223447
+    ],
+    "osm": "w332245790",
+    "tags": {
+      "tourism": "museum"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Парк ім.Т.Шевченка",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.627519,
+      50.95843
+    ],
+    "osm": "w382334195",
+    "tags": {
+      "leisure": "park"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Хмелі заказник",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      29.163138,
+      51.349492
+    ],
+    "osm": "w445751019",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Словечанський кряж",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.148151,
+      51.246947
+    ],
+    "osm": "w463286695",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Словечанський кряж",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.205779,
+      51.343792
+    ],
+    "osm": "w463286697",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Словечанський кряж",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.04974,
+      51.352447
+    ],
+    "osm": "w463286699",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Баньки",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      27.558324,
+      51.261798
+    ],
+    "osm": "w464151501",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Берльоне",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      27.517748,
+      51.420646
+    ],
+    "osm": "w464155560",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Білокоровицький ліс",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      27.983229,
+      51.132717
+    ],
+    "osm": "w464159207",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Вереси",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      27.381535,
+      51.127604
+    ],
+    "osm": "w464162837",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Ветьва",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      27.743762,
+      51.46363
+    ],
+    "osm": "w464163917",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Діброва",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      27.741315,
+      51.018559
+    ],
+    "osm": "w464173073",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Жубровицький",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      27.819314,
+      51.065713
+    ],
+    "osm": "w464173841",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Жубровицький",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      27.825794,
+      51.077295
+    ],
+    "osm": "w464173842",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Камінне село",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      27.980193,
+      51.304708
+    ],
+    "osm": "w464175130",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Зимник",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      27.676237,
+      51.41392
+    ],
+    "osm": "w464178714",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Ігорів брід",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      27.521768,
+      51.300024
+    ],
+    "osm": "w464179836",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Корч",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      27.469179,
+      51.294035
+    ],
+    "osm": "w464180108",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Лиса гора",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      27.611072,
+      51.258859
+    ],
+    "osm": "w464182086",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Олевський",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      27.653818,
+      51.286879
+    ],
+    "osm": "w464182641",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Плотниця",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.002316,
+      51.372262
+    ],
+    "osm": "w464190023",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Поясківський",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      27.886085,
+      51.335152
+    ],
+    "osm": "w464192729",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Прадуниха",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      27.403181,
+      51.104466
+    ],
+    "osm": "w464194196",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Стовпинський",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      27.779355,
+      51.110697
+    ],
+    "osm": "w464194854",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Страхів",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      27.805453,
+      51.472019
+    ],
+    "osm": "w464196195",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Тересини",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      27.450775,
+      51.18437
+    ],
+    "osm": "w464198920",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Харкові круги",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      27.774349,
+      51.362382
+    ],
+    "osm": "w464199688",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Чорний бусол",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      27.744717,
+      51.35192
+    ],
+    "osm": "w464199910",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Барвенкове",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.386818,
+      50.826591
+    ],
+    "osm": "w464556264",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Волосне",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.506252,
+      50.818377
+    ],
+    "osm": "w464556265",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Мисловичі",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.304626,
+      50.827286
+    ],
+    "osm": "w464556849",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Сукачове",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.539177,
+      50.830315
+    ],
+    "osm": "w464556851",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Чорний мох",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.439141,
+      50.831278
+    ],
+    "osm": "w464556852",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Щабель",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.448583,
+      50.82046
+    ],
+    "osm": "w464556925",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Дивлинський",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.164656,
+      51.05241
+    ],
+    "osm": "w464782149",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Заболоття",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.157485,
+      51.61135
+    ],
+    "osm": "w464782150",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Зажеревська дача",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.348732,
+      51.106594
+    ],
+    "osm": "w464782151",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Зелений мох",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.418518,
+      51.211676
+    ],
+    "osm": "w464782152",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Камяна гірка",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.112186,
+      51.369248
+    ],
+    "osm": "w464782153",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Кримє",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.190492,
+      51.343691
+    ],
+    "osm": "w464782156",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Лугинські дубняки",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.379322,
+      51.138057
+    ],
+    "osm": "w464782158",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Можарівський",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.419136,
+      51.414279
+    ],
+    "osm": "w464782159",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Плющ",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.728002,
+      51.200382
+    ],
+    "osm": "w464782782",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Путівець",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      27.719748,
+      51.170766
+    ],
+    "osm": "w464782783",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Радогощанський",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.297548,
+      50.995844
+    ],
+    "osm": "w464782784",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Товкачове",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.848402,
+      51.462794
+    ],
+    "osm": "w464782786",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Турейка",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.441111,
+      51.12449
+    ],
+    "osm": "w464782787",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Красносілка",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.235893,
+      51.608103
+    ],
+    "osm": "w464789855",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Токовище",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.31678,
+      51.49068
+    ],
+    "osm": "w464793741",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Липницький",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.464375,
+      51.139498
+    ],
+    "osm": "w464991205",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Мельницький",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.148741,
+      50.959305
+    ],
+    "osm": "w464993211",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Мощаниця",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.549333,
+      51.221743
+    ],
+    "osm": "w464993483",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Молочно-товарна ферма №2",
+    "qid": null,
+    "kind": "castle",
+    "ll": [
+      29.32006,
+      50.767468
+    ],
+    "osm": "w536654567",
+    "tags": {
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Парк ім. І. Вигівського",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.475996,
+      50.93186
+    ],
+    "osm": "w562905692",
+    "tags": {
+      "leisure": "park"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Алея Пам'яті",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      29.237996,
+      50.764498
+    ],
+    "osm": "w683963372",
+    "tags": {
+      "leisure": "park",
+      "natural": "scrub"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Майданчик стартового стола",
+    "qid": null,
+    "kind": "castle",
+    "ll": [
+      27.995164,
+      51.146752
+    ],
+    "osm": "w701320840",
+    "tags": {
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Майданчик стартового стола",
+    "qid": null,
+    "kind": "castle",
+    "ll": [
+      27.996879,
+      51.145941
+    ],
+    "osm": "w701320841",
+    "tags": {
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Майданчик стартового стола",
+    "qid": null,
+    "kind": "castle",
+    "ll": [
+      27.994331,
+      51.143741
+    ],
+    "osm": "w701320842",
+    "tags": {
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Майданчик стартового стола",
+    "qid": null,
+    "kind": "castle",
+    "ll": [
+      27.992638,
+      51.144545
+    ],
+    "osm": "w701320843",
+    "tags": {
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказкник Речиця",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      27.884266,
+      51.302943
+    ],
+    "osm": "w766320172",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Микитче",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      27.777986,
+      51.412627
+    ],
+    "osm": "w766320173",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Словечанський кряж",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.469438,
+      51.227144
+    ],
+    "osm": "w766323395",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Словечанський кряж",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.284044,
+      51.229925
+    ],
+    "osm": "w766323396",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Словечансько-Овруцький кряж",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.201561,
+      51.259172
+    ],
+    "osm": "w766323397",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Словечанський кряж",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.188643,
+      51.22613
+    ],
+    "osm": "w766323398",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Словечанський кряж",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.176284,
+      51.23704
+    ],
+    "osm": "w766323399",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Корніїв",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.142273,
+      51.369851
+    ],
+    "osm": "w766324188",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Замисловицький",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      27.880018,
+      51.238599
+    ],
+    "osm": "w766325333",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Коморище",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.848681,
+      51.461213
+    ],
+    "osm": "w766326978",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Ботанічний заказник місцевого значення \"Черевківський\"",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.438229,
+      51.31784
+    ],
+    "osm": "w949637541",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Ботанічний заказник місцевого значення \"Черевківський\"",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.435333,
+      51.317047
+    ],
+    "osm": "w949637542",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Ботанічний заказник місцевого значення \"Черевківський\"",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.426773,
+      51.323655
+    ],
+    "osm": "w949637543",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Ботанічний заказник місцевого значення \"Черевківський\"",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.446504,
+      51.322613
+    ],
+    "osm": "w949637544",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Ботанічний заказник місцевого значення \"Черевківський\"",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.424357,
+      51.319481
+    ],
+    "osm": "w949637545",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Ботанічний заказник місцевого значення \"Черевківський\"",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.424155,
+      51.320504
+    ],
+    "osm": "w949637546",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Ботанічний заказник місцевого значення \"Черевківський\"",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.423094,
+      51.320931
+    ],
+    "osm": "w949637547",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Ботанічний заказник місцевого значення \"Черевківський\"",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.425092,
+      51.318646
+    ],
+    "osm": "w949637548",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Меморіальний парк",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      27.854678,
+      51.592811
+    ],
+    "osm": "w1015906374",
+    "tags": {
+      "leisure": "park"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Ботанічний заказник місцевого значення \"Черевківський\"",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.403458,
+      51.329844
+    ],
+    "osm": "w1112271291",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Ботанічний заказник місцевого значення \"Черевківський\"",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.401927,
+      51.326605
+    ],
+    "osm": "w1112271292",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Парк культури та відпочинку паперовиків",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      29.238394,
+      50.758592
+    ],
+    "osm": "r7481426",
+    "tags": {
+      "leisure": "park"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Героїв АТО Парк",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      29.273796,
+      50.760563
+    ],
+    "osm": "r7699777",
+    "tags": {
+      "leisure": "park"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Сквер",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      29.277457,
+      50.788805
+    ],
+    "osm": "r7930228",
+    "tags": {
+      "leisure": "park"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Забране",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.754428,
+      50.73917
+    ],
+    "osm": "r8212327",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Заказник Бучмани",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      28.039815,
+      51.052642
+    ],
+    "osm": "r8755959",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Громадський екологічний лісопарк Вересковий",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      29.223347,
+      50.756663
+    ],
+    "osm": "r8888006",
+    "tags": {
+      "leisure": "nature_reserve"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Свято-Миколаївський парк",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      29.079418,
+      51.201943
+    ],
+    "osm": "r9447260",
+    "tags": {
+      "leisure": "park"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Парк ім. Гагаріна",
+    "qid": null,
+    "kind": "park",
+    "ll": [
+      27.646942,
+      51.224241
+    ],
+    "osm": "r18629186",
+    "tags": {
+      "leisure": "park",
+      "natural": "wood"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 2
+  },
+  {
+    "name": "Невідомому солдату",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.29323,
+      50.777117
+    ],
+    "osm": "n2368876399",
+    "tags": {
+      "historic": "monument"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "ДОТ",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      28.305067,
+      51.417231
+    ],
+    "osm": "n2517340222",
+    "tags": {
+      "tourism": "attraction"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Розстріляним євреям",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      27.586034,
+      51.205345
+    ],
+    "osm": "n2960720030",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Святий Миколай",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      27.648326,
+      51.228022
+    ],
+    "osm": "n2960760699",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Жертвам окупантів",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      27.668873,
+      51.233539
+    ],
+    "osm": "n2960813071",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Вид на кар'єр",
+    "qid": null,
+    "kind": "viewpoint",
+    "ll": [
+      29.316207,
+      50.748626
+    ],
+    "osm": "n3024009468",
+    "tags": {
+      "tourism": "viewpoint"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Полеглим у Другій світовій війні",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      27.649461,
+      51.222696
+    ],
+    "osm": "n3088870882",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Олень",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      27.648963,
+      51.224818
+    ],
+    "osm": "n3088880449",
+    "tags": {
+      "tourism": "artwork"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Камінне село",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      27.979301,
+      51.304596
+    ],
+    "osm": "n3127737329",
+    "tags": {
+      "tourism": "attraction"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Сліди Бога",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      27.978542,
+      51.302239
+    ],
+    "osm": "n3134544795",
+    "tags": {
+      "tourism": "attraction"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "1943-1995",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      27.589688,
+      51.215886
+    ],
+    "osm": "n3139964056",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Пам'ятник жертвам аварії на чорнобильській АЕС",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.800194,
+      51.326949
+    ],
+    "osm": "n3224469461",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Пам'ятник Яну Наліпці-Ріпкіну",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.799468,
+      51.322606
+    ],
+    "osm": "n3224780583",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Загиблим міліціонерам",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.800631,
+      51.321412
+    ],
+    "osm": "n3224780876",
+    "tags": {
+      "historic": "monument"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Місце поховання князя Олега",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.804527,
+      51.320708
+    ],
+    "osm": "n3224784230",
+    "tags": {
+      "historic": "monument"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Пам'ятник Тарасу Григоровичу Шевченку",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.799485,
+      51.319044
+    ],
+    "osm": "n3224871214",
+    "tags": {
+      "historic": "monument"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Пам'ятник Макарію",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.799162,
+      51.3155
+    ],
+    "osm": "n3224873446",
+    "tags": {
+      "historic": "monument"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Пам'ятник Сабурову",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.783635,
+      51.330644
+    ],
+    "osm": "n3224894261",
+    "tags": {
+      "historic": "monument"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Героям Небесної сотні",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.799515,
+      51.320081
+    ],
+    "osm": "n3229375184",
+    "tags": {
+      "historic": "monument"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "ДОТ",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      28.064296,
+      51.353475
+    ],
+    "osm": "n3393259539",
+    "tags": {
+      "tourism": "attraction",
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "ЖФКРРТ",
+    "qid": null,
+    "kind": "tower",
+    "ll": [
+      27.658123,
+      51.20658
+    ],
+    "osm": "n3393553102",
+    "tags": {
+      "man_made": "tower"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Шевченко",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.401168,
+      51.079039
+    ],
+    "osm": "n3727196544",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Журавлине болото",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      28.083754,
+      51.533828
+    ],
+    "osm": "n3814014557",
+    "tags": {
+      "tourism": "attraction"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Загиблим односельчанам",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      27.545879,
+      51.098843
+    ],
+    "osm": "n3941218408",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "163 інженерний полк",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      28.315697,
+      50.864905
+    ],
+    "osm": "n4042802600",
+    "tags": {
+      "tourism": "yes",
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "182 ракетний полк",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      28.270995,
+      51.293908
+    ],
+    "osm": "n4042802602",
+    "tags": {
+      "tourism": "yes",
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "182 ракетний полк",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      28.179457,
+      51.308907
+    ],
+    "osm": "n4042802603",
+    "tags": {
+      "tourism": "yes",
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "302 ракетний полк",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      28.122514,
+      51.066441
+    ],
+    "osm": "n4042802604",
+    "tags": {
+      "tourism": "yes",
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "302 ракетний полк",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      28.006991,
+      51.143922
+    ],
+    "osm": "n4042802605",
+    "tags": {
+      "tourism": "yes",
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "302 ракетний полк",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      28.056901,
+      51.176555
+    ],
+    "osm": "n4042802606",
+    "tags": {
+      "tourism": "yes",
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Герою України пожежнику Миколі Ващуку",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.579518,
+      51.301501
+    ],
+    "osm": "n4120531859",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Гідроелектростанція (руїни)",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      28.711417,
+      50.995121
+    ],
+    "osm": "n4249244789",
+    "tags": {
+      "tourism": "attraction",
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Загиблим воїнам учасникам війні в Авганістані. Романенку і Медведю.",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.579651,
+      51.30152
+    ],
+    "osm": "n4294947415",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Червоні береги кар'єру",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      28.607238,
+      50.767516
+    ],
+    "osm": "n4407746692",
+    "tags": {
+      "tourism": "attraction"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Кар'єр з пустелею та потрісканими пісками",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      28.685621,
+      50.729233
+    ],
+    "osm": "n4407815691",
+    "tags": {
+      "tourism": "attraction"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Московський кар'єр",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      28.644236,
+      50.914079
+    ],
+    "osm": "n4407816391",
+    "tags": {
+      "tourism": "attraction"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Братська могила розстріляних євреїв",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.253628,
+      50.785676
+    ],
+    "osm": "n4577440155",
+    "tags": {
+      "historic": "memorial",
+      "man_made": "obelisk"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Гармата ЗІС-3",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      29.254002,
+      50.769319
+    ],
+    "osm": "n4583835353",
+    "tags": {
+      "tourism": "attraction",
+      "historic": "cannon"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Відслонення білокоровицьких кварцитів",
+    "qid": null,
+    "kind": "viewpoint",
+    "ll": [
+      28.051196,
+      51.276293
+    ],
+    "osm": "n4593147102",
+    "tags": {
+      "tourism": "viewpoint"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Загиблим у Афганістані з Малинського району",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.248471,
+      50.767906
+    ],
+    "osm": "n4602202385",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Підпільнику Васі Мелещенку",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.253125,
+      50.769566
+    ],
+    "osm": "n4602214754",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Загиблим правоохоронцям",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.233428,
+      50.767843
+    ],
+    "osm": "n4708397359",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Братська могила розстріляних євреїв",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.608484,
+      50.945693
+    ],
+    "osm": "n4717499181",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Братська могила розстріляних євреїв",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.855612,
+      50.828463
+    ],
+    "osm": "n4722815551",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Братська могила розстріляних євреїв",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.467303,
+      51.324591
+    ],
+    "osm": "n4726919102",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Гребля",
+    "qid": null,
+    "kind": "viewpoint",
+    "ll": [
+      28.428019,
+      51.094315
+    ],
+    "osm": "n4729978283",
+    "tags": {
+      "tourism": "viewpoint"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Вічний вогонь",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.799653,
+      51.316631
+    ],
+    "osm": "n4743857921",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Тарасові Шевченку",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.23215,
+      50.770989
+    ],
+    "osm": "n4773337092",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Кузьменко Ісак Денисович",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      29.216494,
+      50.771576
+    ],
+    "osm": "n4832202648",
+    "tags": {
+      "tourism": "attraction",
+      "man_made": "grave"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Микола Миклухо-Маклай",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.24276,
+      50.769293
+    ],
+    "osm": "n4862303424",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Невідомому солдату",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.253845,
+      50.768609
+    ],
+    "osm": "n4874903331",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "\"Пєчка\"",
+    "qid": null,
+    "kind": "sight",
+    "ll": [
+      28.127,
+      51.050682
+    ],
+    "osm": "n4885642651",
+    "tags": {
+      "historic": "archaeological_site"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Пам'ятник воїнам і партизанам загиблим в роки Великої Вітчизняної війни",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.34037,
+      51.38563
+    ],
+    "osm": "n4979726223",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Пам'яті спалених поліських сіл",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.343255,
+      51.381851
+    ],
+    "osm": "n4979726425",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Загиблим мешканцям у 2-ій Світовій Війні",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.371305,
+      50.708928
+    ],
+    "osm": "n5022730891",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Афонський камінь",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      28.927958,
+      50.810642
+    ],
+    "osm": "n5151144751",
+    "tags": {
+      "tourism": "attraction"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Вічний Вогонь",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.24703,
+      50.767864
+    ],
+    "osm": "n5244591272",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Місце , де виникло поселення Малин у IX столітті",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.284003,
+      50.759631
+    ],
+    "osm": "n5270314128",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Міненко Михайло Володимирович",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.302818,
+      50.760269
+    ],
+    "osm": "n5303795798",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Kyivstar",
+    "qid": null,
+    "kind": "tower",
+    "ll": [
+      29.290866,
+      50.788872
+    ],
+    "osm": "n5358638107",
+    "tags": {
+      "man_made": "tower"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Вентиль водопроводу",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      29.242504,
+      50.777103
+    ],
+    "osm": "n5396153653",
+    "tags": {
+      "tourism": "artwork"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Пам'ятник Першим Механізаторам (Трактор \"Універсал-2\")",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      29.212853,
+      50.968672
+    ],
+    "osm": "n5484248999",
+    "tags": {
+      "tourism": "attraction",
+      "historic": "monument"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Радянський солдат",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.216483,
+      50.771705
+    ],
+    "osm": "n5528171833",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Пам'ятник загиблим у 2-й Світовій Війні",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.467468,
+      50.856552
+    ],
+    "osm": "n5554360637",
+    "tags": {
+      "historic": "monument"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Слобідське лісництво",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      29.210742,
+      50.777489
+    ],
+    "osm": "n5557780136",
+    "tags": {
+      "tourism": "artwork",
+      "man_made": "advertising"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Добриня Микитович",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.648392,
+      50.948789
+    ],
+    "osm": "n5749193592",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "\"Пєчка\"",
+    "qid": null,
+    "kind": "sight",
+    "ll": [
+      28.124455,
+      51.042224
+    ],
+    "osm": "n5806518560",
+    "tags": {
+      "historic": "archaeological_site"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "\"Пєчка\"",
+    "qid": null,
+    "kind": "sight",
+    "ll": [
+      28.098891,
+      51.041691
+    ],
+    "osm": "n5806518640",
+    "tags": {
+      "historic": "archaeological_site"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "\"Пєчка\"",
+    "qid": null,
+    "kind": "sight",
+    "ll": [
+      28.067459,
+      51.037257
+    ],
+    "osm": "n5866559237",
+    "tags": {
+      "historic": "archaeological_site"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "\"Пєчка\"",
+    "qid": null,
+    "kind": "sight",
+    "ll": [
+      28.060834,
+      51.055422
+    ],
+    "osm": "n5866559238",
+    "tags": {
+      "historic": "archaeological_site"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Другої Світової Війни",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      27.449205,
+      51.028968
+    ],
+    "osm": "n5887046934",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Меморіал 2-ї Світової Війни",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      27.516332,
+      51.082577
+    ],
+    "osm": "n5887048023",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Т. Г. Шевченко",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      27.516625,
+      51.082828
+    ],
+    "osm": "n5887048024",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "\"Пєчка\"",
+    "qid": null,
+    "kind": "sight",
+    "ll": [
+      28.070383,
+      51.047708
+    ],
+    "osm": "n5893389506",
+    "tags": {
+      "historic": "archaeological_site"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Пам'ятник деруну",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      28.647241,
+      50.949991
+    ],
+    "osm": "n5986531485",
+    "tags": {
+      "tourism": "artwork"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "1030-річчя Коростеня",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.647134,
+      50.949461
+    ],
+    "osm": "n5986535787",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Малуша з сином Володимиром",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.647999,
+      50.94903
+    ],
+    "osm": "n5986552585",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Князь Мал",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.649441,
+      50.947695
+    ],
+    "osm": "n5986616685",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Загальноосвітня школа №1",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.242776,
+      50.768982
+    ],
+    "osm": "n6015277991",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Янголятки",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      29.250216,
+      50.768575
+    ],
+    "osm": "n6027210972",
+    "tags": {
+      "tourism": "artwork"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Янголятки",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      29.250053,
+      50.768295
+    ],
+    "osm": "n6027210973",
+    "tags": {
+      "tourism": "artwork"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Жордочкін",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.244194,
+      50.770898
+    ],
+    "osm": "n6097025948",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Булига Сергій Васильович",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.268165,
+      50.760613
+    ],
+    "osm": "n6097025953",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Єгоров",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.248307,
+      50.768032
+    ],
+    "osm": "n6099088825",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Вайсер",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.248162,
+      50.768068
+    ],
+    "osm": "n6099088826",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Грищенко",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.247744,
+      50.768172
+    ],
+    "osm": "n6099088829",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Сосніна",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.24761,
+      50.768205
+    ],
+    "osm": "n6099088830",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Тараскін",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.247471,
+      50.76824
+    ],
+    "osm": "n6099088831",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Пам'ятник матері і дитині",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      27.84093,
+      51.153715
+    ],
+    "osm": "n6110949744",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Василь Панасенко",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.640466,
+      50.948504
+    ],
+    "osm": "n6297446220",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Галина Бондарик",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.220581,
+      50.772643
+    ],
+    "osm": "n6380525208",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Катерина Семеновна Миклуха",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      29.21439,
+      50.771272
+    ],
+    "osm": "n6385252085",
+    "tags": {
+      "tourism": "attraction",
+      "man_made": "grave"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Грищенко М. П.",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.220322,
+      50.773222
+    ],
+    "osm": "n6387626890",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Зайчик",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      29.219542,
+      50.771914
+    ],
+    "osm": "n6390549100",
+    "tags": {
+      "tourism": "artwork"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Олегове городище",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      27.667446,
+      51.235936
+    ],
+    "osm": "n6394153770",
+    "tags": {
+      "tourism": "attraction"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Радянський солдат",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.216482,
+      50.771495
+    ],
+    "osm": "n6427453889",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "ВВВ",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      27.685026,
+      51.035079
+    ],
+    "osm": "n6434395102",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Приходько",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.225385,
+      50.757539
+    ],
+    "osm": "n6443286461",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Буслики",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      29.258858,
+      50.76306
+    ],
+    "osm": "n6451477189",
+    "tags": {
+      "tourism": "artwork"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "I Love Malyn",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      29.238575,
+      50.761157
+    ],
+    "osm": "n6469228685",
+    "tags": {
+      "tourism": "artwork"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Алексухін",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.247573,
+      50.768044
+    ],
+    "osm": "n6520584361",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Бармін",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.247825,
+      50.767981
+    ],
+    "osm": "n6520584362",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Драган",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.248022,
+      50.767943
+    ],
+    "osm": "n6520584363",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Тарасюк",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.2482,
+      50.767904
+    ],
+    "osm": "n6520584364",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Неманихін",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.237358,
+      50.760618
+    ],
+    "osm": "n6531991108",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "вулиця Гагаріна",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.239934,
+      50.759855
+    ],
+    "osm": "n6537029301",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Зайчик",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      29.240076,
+      50.759252
+    ],
+    "osm": "n6548403506",
+    "tags": {
+      "tourism": "artwork"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Буслики",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      29.244679,
+      50.769429
+    ],
+    "osm": "n6548403508",
+    "tags": {
+      "tourism": "artwork"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Пам'ятний знак ДТП",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.215782,
+      50.755489
+    ],
+    "osm": "n6560125678",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Малин",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      29.218923,
+      50.757044
+    ],
+    "osm": "n6560444736",
+    "tags": {
+      "tourism": "artwork"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Пам'ятник ВВВ",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.172175,
+      51.072506
+    ],
+    "osm": "n6571053536",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Київська особлива танкова дивізія",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.295202,
+      50.774277
+    ],
+    "osm": "n6571056253",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Малинівка",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      29.277559,
+      50.784854
+    ],
+    "osm": "n6574706042",
+    "tags": {
+      "tourism": "artwork"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Венгель",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.247402,
+      50.768096
+    ],
+    "osm": "n6592781687",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "на честь працівників заводу, що загинули у 2-гу Світову Війну",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.285192,
+      50.776617
+    ],
+    "osm": "n6629363207",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Оглядовий майданчик ґреблі",
+    "qid": null,
+    "kind": "viewpoint",
+    "ll": [
+      29.223382,
+      50.764628
+    ],
+    "osm": "n6644666770",
+    "tags": {
+      "tourism": "viewpoint"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Оглядовий майданчик ґреблі",
+    "qid": null,
+    "kind": "viewpoint",
+    "ll": [
+      29.223287,
+      50.764045
+    ],
+    "osm": "n6644666780",
+    "tags": {
+      "tourism": "viewpoint"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "\"Ключ\"",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      27.658094,
+      51.208503
+    ],
+    "osm": "n6779381512",
+    "tags": {
+      "tourism": "attraction"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Вид на кар'єр",
+    "qid": null,
+    "kind": "viewpoint",
+    "ll": [
+      28.162363,
+      51.154877
+    ],
+    "osm": "n6783705484",
+    "tags": {
+      "tourism": "viewpoint"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Вид на кар'єр",
+    "qid": null,
+    "kind": "viewpoint",
+    "ll": [
+      28.155452,
+      51.148829
+    ],
+    "osm": "n6783705809",
+    "tags": {
+      "tourism": "viewpoint"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Вид на кар'єр",
+    "qid": null,
+    "kind": "viewpoint",
+    "ll": [
+      28.153547,
+      51.149262
+    ],
+    "osm": "n6783705810",
+    "tags": {
+      "tourism": "viewpoint"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Божа Мати Покрови Пресвятої Богородиці",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.648015,
+      50.950342
+    ],
+    "osm": "n6819602017",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Пам'ятник тризубу",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.635495,
+      50.956913
+    ],
+    "osm": "n6819602077",
+    "tags": {
+      "historic": "monument"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Цвинтар",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.942737,
+      51.237538
+    ],
+    "osm": "n6863080385",
+    "tags": {
+      "historic": "monument"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Вид на кар'єр",
+    "qid": null,
+    "kind": "viewpoint",
+    "ll": [
+      28.68977,
+      51.134711
+    ],
+    "osm": "n6874192786",
+    "tags": {
+      "tourism": "viewpoint"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "ВВВ",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      27.686625,
+      51.260785
+    ],
+    "osm": "n6900751550",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Пам'ятник загиблим солдатам",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      27.840587,
+      51.154048
+    ],
+    "osm": "n6920083201",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Могила С.К. Тура",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      27.840427,
+      51.153902
+    ],
+    "osm": "n6920083202",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Малуша",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.249457,
+      50.768826
+    ],
+    "osm": "n7048717024",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Трактор \"Універсал-2\"",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.387478,
+      51.075019
+    ],
+    "osm": "n7072219404",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "ЗіС-3",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.648508,
+      50.947446
+    ],
+    "osm": "n7074446418",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "ІСУ-152",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.648529,
+      50.947263
+    ],
+    "osm": "n7074446419",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Т-64",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.648542,
+      50.947223
+    ],
+    "osm": "n7074446420",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "МТП на базі БТР-50",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.648556,
+      50.94718
+    ],
+    "osm": "n7074446421",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "БТР-60",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.648565,
+      50.947139
+    ],
+    "osm": "n7074446422",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "БМП-1",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.648582,
+      50.947095
+    ],
+    "osm": "n7074446423",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "БРДМ-2",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.648607,
+      50.947052
+    ],
+    "osm": "n7074446424",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "С-60",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.648616,
+      50.947014
+    ],
+    "osm": "n7074446425",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "ЗіС-2",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.648635,
+      50.946979
+    ],
+    "osm": "n7074446426",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Д-44",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.648667,
+      50.946915
+    ],
+    "osm": "n7074446428",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "М-30",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.648678,
+      50.946884
+    ],
+    "osm": "n7074446429",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Д-20",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.648701,
+      50.946856
+    ],
+    "osm": "n7074446430",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "2А36 «Гіацинт-Б»",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.64872,
+      50.946831
+    ],
+    "osm": "n7074446431",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "МЛ-20",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.648734,
+      50.946807
+    ],
+    "osm": "n7074446432",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Танк Т-34-76",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.955283,
+      50.827678
+    ],
+    "osm": "n7075545262",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Катерина Зеленко",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      27.542038,
+      51.217486
+    ],
+    "osm": "n7220739733",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Ейфелева вежа",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      29.244198,
+      50.770836
+    ],
+    "osm": "n7308805064",
+    "tags": {
+      "tourism": "artwork"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Pillbox",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      28.075217,
+      51.316284
+    ],
+    "osm": "n7367475588",
+    "tags": {
+      "tourism": "attraction"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Pillbox",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      28.06381,
+      51.297219
+    ],
+    "osm": "n7367475591",
+    "tags": {
+      "tourism": "attraction"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Купа великих каменів",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      28.023557,
+      51.292057
+    ],
+    "osm": "n7384698281",
+    "tags": {
+      "tourism": "attraction"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Два валуна",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      28.023557,
+      51.294091
+    ],
+    "osm": "n7384698282",
+    "tags": {
+      "tourism": "attraction"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "1941-1945",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      27.750191,
+      51.295821
+    ],
+    "osm": "n7439210379",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Друга Світова Війна",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.456486,
+      50.858033
+    ],
+    "osm": "n7460547032",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "\"Пєчка\"",
+    "qid": null,
+    "kind": "sight",
+    "ll": [
+      28.136002,
+      51.034586
+    ],
+    "osm": "n7495497779",
+    "tags": {
+      "historic": "archaeological_site"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Оглядовий пункт на грабі",
+    "qid": null,
+    "kind": "tower",
+    "ll": [
+      28.116622,
+      51.037591
+    ],
+    "osm": "n7495522488",
+    "tags": {
+      "man_made": "tower"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Чоловік",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      27.946176,
+      51.253781
+    ],
+    "osm": "n7501913433",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Жінка",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      27.94596,
+      51.253749
+    ],
+    "osm": "n7501913434",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "\"Пєчка\"",
+    "qid": null,
+    "kind": "sight",
+    "ll": [
+      28.155464,
+      51.059423
+    ],
+    "osm": "n7876937379",
+    "tags": {
+      "historic": "archaeological_site"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Стела захисникам України",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.799082,
+      51.319814
+    ],
+    "osm": "n8006102486",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Капсула зі зверненням від захисників України",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      29.248898,
+      50.767779
+    ],
+    "osm": "n8025318285",
+    "tags": {
+      "tourism": "attraction"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Т.Шевченку",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.648463,
+      50.950162
+    ],
+    "osm": "n8222474545",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Дерев'яний млин",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      28.798438,
+      50.700243
+    ],
+    "osm": "n8621943467",
+    "tags": {
+      "tourism": "attraction",
+      "man_made": "windmill"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Камʼяне плато",
+    "qid": null,
+    "kind": "viewpoint",
+    "ll": [
+      29.000264,
+      51.130004
+    ],
+    "osm": "n8722932257",
+    "tags": {
+      "tourism": "viewpoint"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Спаленому селу",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      27.883682,
+      51.400354
+    ],
+    "osm": "n8875725708",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Жертвам сталінських репресій",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      27.606159,
+      51.209946
+    ],
+    "osm": "n8906627381",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Вид на кар'єр",
+    "qid": null,
+    "kind": "viewpoint",
+    "ll": [
+      28.675863,
+      50.938809
+    ],
+    "osm": "n8967670617",
+    "tags": {
+      "tourism": "viewpoint"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Братська могила розстріляних євреїв",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.39496,
+      51.07949
+    ],
+    "osm": "n9247113425",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Братська могила розстріляних євреїв",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.39534,
+      51.083573
+    ],
+    "osm": "n9247113426",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Меморіал пам'яті Героїв Базару",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.299767,
+      51.042652
+    ],
+    "osm": "n9270664107",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Пам'ятник воїнам – визволителям м. Коростеня",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.640587,
+      50.953992
+    ],
+    "osm": "n9908052749",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Носоріг",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      29.243595,
+      50.764684
+    ],
+    "osm": "n9914286466",
+    "tags": {
+      "tourism": "artwork"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Загиблим у українсько-російській війні 2014-2023 років",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.273741,
+      50.759996
+    ],
+    "osm": "n10272550017",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Дружбівський кар'єр",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      27.97356,
+      51.191285
+    ],
+    "osm": "n10650171630",
+    "tags": {
+      "tourism": "attraction"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Дошка Пам'яті Загиблих у російсько-українській Війні 2014-2026",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.241505,
+      50.767794
+    ],
+    "osm": "n11180337475",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Дошка Пам'яті Загиблих у російсько-українській Війні 2014-2026",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.291472,
+      50.759279
+    ],
+    "osm": "n11247786037",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Тарасові Шевченку",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.630001,
+      50.957554
+    ],
+    "osm": "n11308008070",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Богдану Хмельницькому",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.645786,
+      50.955256
+    ],
+    "osm": "n11308026869",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Пам'ятний Хрест на честь бою воїнів ОУН-УПА",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.983889,
+      50.756203
+    ],
+    "osm": "n11368452079",
+    "tags": {
+      "historic": "memorial",
+      "man_made": "cross"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "На честь відбудови Естонією зруйнованого мосту",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.239819,
+      50.764089
+    ],
+    "osm": "n11374883369",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Малин",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      29.234898,
+      50.786106
+    ],
+    "osm": "n11939461571",
+    "tags": {
+      "tourism": "artwork"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Загиблим солдатам в ІІ Світовій війні",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.091,
+      51.201067
+    ],
+    "osm": "n11992256545",
+    "tags": {
+      "historic": "monument"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Воїнам загиблим в російсько-українській війні",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.080389,
+      51.202632
+    ],
+    "osm": "n11992381158",
+    "tags": {
+      "historic": "monument"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Загиблим учасникам АТО",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.079373,
+      51.202366
+    ],
+    "osm": "n11992796383",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Пам'яті загублених радіацією сіл і обпалених людських доль Народиччини до 10-річчя Чорнобильської катастрофи",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.078897,
+      51.202157
+    ],
+    "osm": "n11992796384",
+    "tags": {
+      "historic": "monument"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Малин",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      29.269575,
+      50.760532
+    ],
+    "osm": "n12358651314",
+    "tags": {
+      "tourism": "artwork"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Захисникам залізничного мосту у Другій Світовій Війні",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.347494,
+      50.749106
+    ],
+    "osm": "n12943453403",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Пляж Скребеличі",
+    "qid": null,
+    "kind": "beach",
+    "ll": [
+      28.571051,
+      51.36164
+    ],
+    "osm": "n13236907987",
+    "tags": {
+      "natural": "beach"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Дошка Зниклих Безвісти Воїнів ЗСУ",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.241068,
+      50.767885
+    ],
+    "osm": "n13245548702",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Літній кінотеатр",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.250157,
+      50.768251
+    ],
+    "osm": "n13584100163",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Вид на кар'єр",
+    "qid": null,
+    "kind": "viewpoint",
+    "ll": [
+      29.321648,
+      50.749773
+    ],
+    "osm": "n13913820509",
+    "tags": {
+      "tourism": "viewpoint"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Пам'ятник загиблим воїнам у другій світовій війні",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.193762,
+      50.941069
+    ],
+    "osm": "n14004192301",
+    "tags": {
+      "historic": "monument"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Ут-1",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.648525,
+      50.947301
+    ],
+    "osm": "n14167445864",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "АБА-31",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.648527,
+      50.94734
+    ],
+    "osm": "n14167445865",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Куб-1",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.648527,
+      50.947378
+    ],
+    "osm": "n14167445866",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Руб",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.648523,
+      50.94742
+    ],
+    "osm": "n14167445867",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Водяний млин - музей",
+    "qid": null,
+    "kind": "mill",
+    "ll": [
+      28.103278,
+      51.536194
+    ],
+    "osm": "w244406738",
+    "tags": {
+      "man_made": "watermill"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Садиба",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      28.267031,
+      51.121004
+    ],
+    "osm": "w368883307",
+    "tags": {
+      "tourism": "attraction"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Городище Червона гірка",
+    "qid": null,
+    "kind": "sight",
+    "ll": [
+      28.661462,
+      50.952284
+    ],
+    "osm": "w381696431",
+    "tags": {
+      "historic": "archaeological_site"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "182-й ракетний полк",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      28.444958,
+      51.202816
+    ],
+    "osm": "w401871678",
+    "tags": {
+      "tourism": "yes",
+      "historic": "ruins"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Герою України пожежнику Миколі Ващуку",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.579495,
+      51.301502
+    ],
+    "osm": "w410201693",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Курган Безсмертя",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.25439,
+      50.770168
+    ],
+    "osm": "w463066218",
+    "tags": {
+      "historic": "monument",
+      "man_made": "embankment"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Захисникам у 2-ій Світовій Війні",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.095196,
+      50.939965
+    ],
+    "osm": "w467618210",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Місце розстрілу нацистами",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.265294,
+      50.76851
+    ],
+    "osm": "w554539809",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Скорботної Пам'яті 2-ої Світової Війни",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.279187,
+      50.785366
+    ],
+    "osm": "w555302830",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Спаленим нацистами живими учасникам підпілля",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      29.231917,
+      50.771703
+    ],
+    "osm": "w561618340",
+    "tags": {
+      "tourism": "attraction",
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Репресованим при окупації Совєтами",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.226769,
+      50.979083
+    ],
+    "osm": "w570442431",
+    "tags": {
+      "historic": "monument"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Братські поховання",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      29.216484,
+      50.771716
+    ],
+    "osm": "w576362645",
+    "tags": {
+      "tourism": "attraction",
+      "man_made": "grave"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Братська могила пам'ятником-плитою звільнювачів від нацистів",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.949771,
+      50.841512
+    ],
+    "osm": "w657018695",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Братська могила пам'ятником-плитою звільнювачів від нацистів",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      28.939364,
+      50.872711
+    ],
+    "osm": "w657575839",
+    "tags": {
+      "historic": "monument"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Капличка роду Гижицьких",
+    "qid": null,
+    "kind": "attraction",
+    "ll": [
+      29.295316,
+      50.757622
+    ],
+    "osm": "w698319148",
+    "tags": {
+      "tourism": "attraction",
+      "historic": "yes"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Малий Маклай",
+    "qid": null,
+    "kind": "beach",
+    "ll": [
+      29.379754,
+      50.756458
+    ],
+    "osm": "w937030191",
+    "tags": {
+      "natural": "beach"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Заводський пляж",
+    "qid": null,
+    "kind": "beach",
+    "ll": [
+      29.355278,
+      50.754575
+    ],
+    "osm": "w937042109",
+    "tags": {
+      "natural": "beach"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Альтанка",
+    "qid": null,
+    "kind": "viewpoint",
+    "ll": [
+      28.02707,
+      51.390862
+    ],
+    "osm": "w973142306",
+    "tags": {
+      "tourism": "viewpoint"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Центральна дамба",
+    "qid": null,
+    "kind": "dam",
+    "ll": [
+      28.015716,
+      51.063768
+    ],
+    "osm": "r6600187",
+    "tags": {},
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Центральний міський пляж",
+    "qid": null,
+    "kind": "beach",
+    "ll": [
+      29.221488,
+      50.768915
+    ],
+    "osm": "r7425126",
+    "tags": {
+      "leisure": "beach_resort",
+      "natural": "beach"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Жертвам Голодомору",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.289019,
+      50.775598
+    ],
+    "osm": "r7477589",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Бабина Яма",
+    "qid": null,
+    "kind": "beach",
+    "ll": [
+      29.250146,
+      50.758727
+    ],
+    "osm": "r7530754",
+    "tags": {
+      "natural": "beach"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Єврейський пляж",
+    "qid": null,
+    "kind": "beach",
+    "ll": [
+      29.257584,
+      50.758359
+    ],
+    "osm": "r7530756",
+    "tags": {
+      "natural": "beach"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Коса",
+    "qid": null,
+    "kind": "beach",
+    "ll": [
+      29.214843,
+      50.760134
+    ],
+    "osm": "r7568322",
+    "tags": {
+      "natural": "beach"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Дзвін Чорнобиля",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.260411,
+      50.778539
+    ],
+    "osm": "r7871536",
+    "tags": {
+      "historic": "monument"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Литовський пляж",
+    "qid": null,
+    "kind": "beach",
+    "ll": [
+      29.170833,
+      50.767579
+    ],
+    "osm": "r8810316",
+    "tags": {
+      "natural": "beach"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  },
+  {
+    "name": "Малинському підпіллю",
+    "qid": null,
+    "kind": "monument",
+    "ll": [
+      29.24609,
+      50.768068
+    ],
+    "osm": "r19448799",
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 0,
+    "desc": "",
+    "score": 1
+  }
+]
