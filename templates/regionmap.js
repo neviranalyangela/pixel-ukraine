@@ -232,7 +232,9 @@ export function createRegionMap(hooks = {}) {
       if (ptr.size === 2) { const [a, b] = [...ptr.values()], d = Math.hypot(a[0] - b[0], a[1] - b[1]); if (pinch0 > 0) zoom(d / pinch0, (a[0] + b[0]) / 2, (a[1] + b[1]) / 2); pinch0 = d; moved = true; return; }
       const dx = q[0] - p0[0], dy = q[1] - p0[1]; if (Math.abs(dx) + Math.abs(dy) > 1.5) moved = true; if (moved) { Z.tx += dx; Z.ty += dy; clamp(); loadTiles(); draw(); } });
     const up = e => { if (!ptr.has(e.pointerId)) return; const q = ptr.get(e.pointerId); ptr.delete(e.pointerId); pinch0 = 0; if (moved || e.type !== 'pointerup') return;
-      const r = R.c.getBoundingClientRect(), u = R.c.width / r.width, x = (q[0] * Z.k + Z.tx) / LW * R.c.width, y = (q[1] * Z.k + Z.ty) / LH * R.c.height;
+      // q is already in zoomed low-res display space (loXY maps to the drawn canvas, which includes Z), so scale it straight to
+      // device pixels — the marks are stored the same way. Re-applying Z.k/Z.tx here double-counted zoom and broke taps at k>1.
+      const x = q[0] / LW * R.c.width, y = q[1] / LH * R.c.height;
       const m = near(x, y); if (m) card(m); else $('regcard').classList.remove('on'); };
     W.addEventListener('pointerup', up); W.addEventListener('pointercancel', e => ptr.delete(e.pointerId));
     W.addEventListener('wheel', e => { e.preventDefault(); e.stopPropagation(); const r = R.c.getBoundingClientRect(), q = loXY(e); zoom(e.deltaY < 0 ? 1.22 : 1 / 1.22, q[0], q[1]); }, { passive: false });
