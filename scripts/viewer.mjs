@@ -22,6 +22,20 @@ export function install(TRIP) {
     const cp = (src, rel) => { for (const f of readdirSync(src)) { const s = join(src, f), d = join(dst, rel ? join(rel, f) : f); if (/^(\.cache|\.)/.test(f) && f !== '.assetsignore') continue; if (statSync(s).isDirectory()) { mkdirSync(d, { recursive: true }); cp(s, rel ? join(rel, f) : f); } else copyFileSync(s, d); } };
     cp(ROOT + '/regions', ''); console.log(`viewer: regions/ copied into ${join(TRIP, 'regions')} (the district maps)`);
   }
+  {   // trips.json: the other trips this site carries, with a path relative to this build's own folder. The landing and the
+      // region map read it (a missing file = a single-trip site: no links). The loop is the site's front page ('' at the
+      // site root); every other trip is a folder named after its trips/ directory. site.json's "id" says which one this is.
+    const TDIR = join(ROOT, 'trips'), ME = site.id || 'ukraine-loop';
+    if (existsSync(TDIR)) {
+      const sitePath = id => (id === 'ukraine-loop' ? '' : id + '/'), up = sitePath(ME).split('/').filter(Boolean).length, others = [];
+      for (const id of readdirSync(TDIR)) { if (id === ME || !existsSync(join(TDIR, id, 'route.json'))) continue;
+        const st = existsSync(join(TDIR, id, 'site.json')) ? JSON.parse(readFileSync(join(TDIR, id, 'site.json'), 'utf8')) : {};
+        const r = readJSON(join(TDIR, id, 'route.json')) || {};
+        others.push({ id, title: st.title || (r.from && r.to ? `${r.from.split(',')[0]} → ${r.to.split(',')[0]}` : id), path: (up ? '../'.repeat(up) : '') + sitePath(id) });
+      }
+      if (others.length) { writeFileSync(join(TRIP, 'trips.json'), JSON.stringify(others)); console.log(`viewer: trips.json — ${others.map(t => t.id).join(', ')} linked from this build`); }
+    }
+  }
   mkdirSync(join(TRIP, 'fonts'), { recursive: true }); for (const f of readdirSync(join(T, 'fonts'))) copyFileSync(join(T, 'fonts', f), join(TRIP, 'fonts', f));   // the self-hosted fonts and their licence (OFL.txt)
   mkdirSync(join(TRIP, 'sfx'), { recursive: true }); for (const f of readdirSync(join(T, 'sfx'))) if (f.endsWith('.mp3')) copyFileSync(join(T, 'sfx', f), join(TRIP, 'sfx', f));   // the sound loops: engines, steps, wind, city and country
 }

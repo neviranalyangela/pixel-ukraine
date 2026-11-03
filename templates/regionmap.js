@@ -60,7 +60,7 @@ export function createRegionMap(hooks = {}) {
     const reg = document.createElement('div'); reg.id = 'reg';
     reg.innerHTML = `<div id="regwrap"><canvas id="regc"></canvas>
       <div id="regback"><span id="regname"></span></div>
-      <div id="regtools"><button id="regpickb" type="button" hidden>Райони</button><button id="regclose" type="button">Закрити</button></div>
+      <div id="regtools"><button id="regride" type="button" hidden>Поїхати</button><button id="regpickb" type="button" hidden>Райони</button><button id="regclose" type="button">Закрити</button></div>
       <div id="regzoom"><button id="regplus" type="button">+</button><button id="regminus" type="button">−</button></div>
       <div id="regscale"><span></span><i></i></div>
       <div id="regcred">Map data © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors (ODbL)</div>
@@ -85,7 +85,17 @@ export function createRegionMap(hooks = {}) {
   // ------------------------------------------------------------ the state of the open map
   // B: [lon,lat] -> map pixels at zoom 1 (equirectangular, x squeezed by cos(lat), y up is north).
   // Z: {k, tx, ty} — zoom and pan in map pixels; T(p) = p*k + t, like the country overview.
-  let B = null, Z = null, LW = 0, LH = 0, IDX = null, LMS = null, NBR = null, CACHED = null, tiles = new Map(), btiles = new Map(), pending = 0, R = null, pickOpen = false;
+  let B = null, Z = null, LW = 0, LH = 0, IDX = null, LMS = null, NBR = null, CACHED = null, tiles = new Map(), btiles = new Map(), pending = 0, R = null, pickOpen = false, TRIPS = null;   // TRIPS: trips.json (the site's other trips), for a region's «Поїхати» link
+
+  function rideLink(trip) {   // where a region's ride lives: its id among this site's trips (viewer.mjs writes trips.json per build)
+    if (!trip) return null;
+    const p = TRIPS && TRIPS.find(t => t.id === trip);
+    return p ? p.path : null;
+  }
+  function trips() {   // loaded once, on first open; a single-trip site has no file
+    if (TRIPS) return Promise.resolve();
+    return fetch('trips.json').then(r => r.ok ? r.json() : null).then(j => { TRIPS = Array.isArray(j) ? j : []; }).catch(() => { TRIPS = []; });
+  }
 
   function fit() {   // the canvas keeps the district's own aspect, fitted into the viewport either way up
     if (!R) return;
@@ -274,6 +284,10 @@ export function createRegionMap(hooks = {}) {
     const L = $('regpickl'); L.replaceChildren();
     for (const r of bt.list) { const b = document.createElement('button'); b.type = 'button'; b.innerHTML = `${r.name}<small>${r.oblast || ''}</small>`; b.addEventListener('click', () => { pickOpen = false; $('regpick').classList.remove('on'); open(r.id); }); L.appendChild(b); }
     $('regcard').classList.remove('on');
+    const RB = $('regride'); RB.hidden = true; RB.onclick = null;
+    await trips();
+    const ride = rideLink(reg.trip);   // a region entry may name the trip that rides it (registry data); the link works from any trip's page
+    if (ride) { RB.hidden = false; RB.onclick = () => { location.href = ride; }; }
     R.open = true; R.dom.classList.add('open'); document.body.classList.add('reg');
     if (hooks.onOpen) try { hooks.onOpen(); } catch {}
     fit(); loadTiles(); draw();

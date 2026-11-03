@@ -186,7 +186,7 @@ writeJSON(join(OUT, 'index.json'), {
 
 // ---------------------------------------------------------------- 8. the registry: one entry per region, the viewer reads this
 const regFile = join(ROOT, 'regions/registry.json'), reg = readJSON(regFile) || { regions: [] };
-const entry = { id: ID, name: CFG.name, name_en: CFG.name_en || null, oblast: CFG.oblast || null, path: `regions/${ID}`, box: [+w0.toFixed(4), +s0.toFixed(4), +e0.toFixed(4), +n0.toFixed(4)], generated: TODAY, source: `OpenStreetMap via Overpass (${usedHost}), ${TODAY}` };
+const entry = { id: ID, name: CFG.name, name_en: CFG.name_en || null, oblast: CFG.oblast || null, path: `regions/${ID}`, box: [+w0.toFixed(4), +s0.toFixed(4), +e0.toFixed(4), +n0.toFixed(4)], generated: TODAY, source: `OpenStreetMap via Overpass (${usedHost}), ${TODAY}`, ...(CFG.trip ? { trip: CFG.trip } : {}) };   // trip: the id of the trip that rides this district (optional; the region screen turns it into a «Поїхати» link)
 const at = reg.regions.findIndex(r => r.id === ID); if (at >= 0) reg.regions[at] = entry; else reg.regions.push(entry);
 writeJSON(regFile, reg, true);
 const total = NT ? [...Array(NT).keys()].reduce((n, c) => { for (const p of ['c', 'b']) { const f = join(OUT, `${p}${String(c).padStart(4, '0')}.json`); if (existsSync(f)) n += statSync(f).size; } return n; }, 0) : 0;

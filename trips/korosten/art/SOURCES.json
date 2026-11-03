@@ -1,0 +1,276 @@
+{
+ "about": "Where each picture in this folder came from. Licences of the generated pictures: see NOTICE.md at the repo root.",
+ "pictures": {
+  "cockpit-bike.png": {
+   "picture": "cockpit-bike",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, copied into this trip"
+  },
+  "cockpit-car.png": {
+   "picture": "cockpit-car",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, copied into this trip"
+  },
+  "cockpit-moto.png": {
+   "picture": "cockpit-moto",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, copied into this trip"
+  },
+  "cockpit-samokat.png": {
+   "picture": "cockpit-samokat",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, copied into this trip"
+  },
+  "cockpit-scooter.png": {
+   "picture": "cockpit-scooter",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, copied into this trip"
+  },
+  "cockpit-ship.png": {
+   "picture": "cockpit-ship",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "madmax-boom.png": {
+   "picture": "madmax-boom",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, copied into this trip"
+  },
+  "madmax-evacbus.png": {
+   "picture": "madmax-evacbus",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, copied into this trip"
+  },
+  "madmax-interceptor.png": {
+   "picture": "madmax-interceptor",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, copied into this trip"
+  },
+  "madmax-orc.png": {
+   "picture": "madmax-orc",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, copied into this trip"
+  },
+  "madmax-person.png": {
+   "picture": "madmax-person",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, copied into this trip"
+  },
+  "madmax-rocket.png": {
+   "picture": "madmax-rocket",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, copied into this trip"
+  },
+  "madmax-smoke.png": {
+   "picture": "madmax-smoke",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, copied into this trip"
+  },
+  "polissia-apartment-1.png": {
+   "picture": "polissia-apartment-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-board-1.png": {
+   "picture": "polissia-board-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-bush-1.png": {
+   "picture": "polissia-bush-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-car-1.png": {
+   "picture": "polissia-car-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-car-2.png": {
+   "picture": "polissia-car-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-car-3.png": {
+   "picture": "polissia-car-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-farm-1.png": {
+   "picture": "polissia-farm-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-farm-2.png": {
+   "picture": "polissia-farm-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-house-1.png": {
+   "picture": "polissia-house-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-house-2.png": {
+   "picture": "polissia-house-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-house-3.png": {
+   "picture": "polissia-house-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-house-4.png": {
+   "picture": "polissia-house-4",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-house-5.png": {
+   "picture": "polissia-house-5",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-oncoming-1.png": {
+   "picture": "polissia-oncoming-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-oncoming-2.png": {
+   "picture": "polissia-oncoming-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-shop-1.png": {
+   "picture": "polissia-shop-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-terrace-1.png": {
+   "picture": "polissia-terrace-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-tree-1.png": {
+   "picture": "polissia-tree-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-tree-2.png": {
+   "picture": "polissia-tree-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "rider-bike.png": {
+   "picture": "rider-bike",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_plus (exact style not logged; $0.06 a picture)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "rider-moto.png": {
+   "picture": "rider-moto",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_plus (exact style not logged; $0.06 a picture)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "rider-samokat.png": {
+   "picture": "rider-samokat",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_plus (exact style not logged; $0.06 a picture)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "rider-scooter.png": {
+   "picture": "rider-scooter",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_plus (exact style not logged; $0.06 a picture)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "rider-walker.png": {
+   "picture": "rider-walker",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_plus (exact style not logged; $0.06 a picture)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  }
+ }
+}
