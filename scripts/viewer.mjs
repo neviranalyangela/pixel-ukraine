@@ -6,7 +6,7 @@ import { copyFileSync, existsSync, mkdirSync, readdirSync, readFileSync, statSyn
 import { createServer } from 'node:http';
 import { join, dirname, extname, normalize, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { args } from './lib.mjs';
+import { args, readJSON } from './lib.mjs';
 
 export function install(TRIP) {
   if (!existsSync(join(TRIP, 'data/index.json'))) throw Error('no data/index.json: run bake.mjs first');

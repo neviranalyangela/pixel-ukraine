@@ -63,6 +63,9 @@ A web page that runs from any static server, with a small Node relay for multipl
   same spot in Google Maps or Street View.
 - **The region maps (`K`):** zoomable pixel maps of whole districts, from Korosten Raion outward — every settlement,
   river, road, rail line, forest and landmark on its real place, pinch to zoom, tap for the name ([REGIONS.md](REGIONS.md)).
+- **The district ride:** `trips/korosten`, a 360 km loop of Korosten Raion — Korosten, Malyn, Narodychi, Ovruch and
+  Olevsk — baked from OpenStreetMap like the loop, with the Polissya kit. The region map's «Поїхати» and the start
+  screen's «Маршрут» row lead into it (and back).
 - **Rush hour in Kyiv:** jams by the hour, on the minimap and on the road.
 - **The city vote,** if you turn it on: players donate to a Monobank jar and the comment names a city for the route.
 
@@ -116,6 +119,21 @@ node scripts/viewer.mjs --trip trips/ukraine-loop --serve 8080
 Open http://127.0.0.1:8080/?mp=0. `viewer.mjs` copies the page, the renderer, the fonts and the sounds from
 `templates/` into the trip folder, then serves the folder. `?mp=0` means you ride alone; without it the page keeps
 trying to reach a multiplayer server that this static server does not have.
+
+The district trip is baked in the repo the same way:
+
+```sh
+node scripts/viewer.mjs --trip trips/korosten --serve 8081     # http://127.0.0.1:8081/?mp=0
+```
+
+To serve both at once (with the «Маршрут» cross-links between them, as on GitHub Pages), build the site layout into
+a folder and serve that:
+
+```sh
+cp -r trips/ukraine-loop dist && cp -r trips/korosten dist/korosten
+node -e "import('./scripts/viewer.mjs').then(async m => { await m.install('dist'); await m.install('dist/korosten'); })"
+node scripts/viewer.mjs --trip dist --serve 8080               # the loop at /, korosten at /korosten/
+```
 
 Controls:
 

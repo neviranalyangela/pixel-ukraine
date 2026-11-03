@@ -1,8 +1,8 @@
 # REGIONS.md — the region (district) map system
 
 A **region** is a zoomable pixel overview map of one district (raion), baked from OpenStreetMap and shown
-as a screen inside the game. Phase 1 is the map; Phase 2 will add the ride through the region (the road
-trip), and a region folder will then grow into a trip folder without changing shape.
+as a screen inside the game. Phase 1 was the map; Phase 2 added the ride through the region: a region
+may name the trip that rides it, and the region folder's data keeps the same shape as a trip's.
 
 Korosten Raion (`korosten`) is region #1. **Adding another district is a data task, not a code task**: no
 region-specific logic exists in the viewer — everything the map draws comes from the registry and the
@@ -103,6 +103,25 @@ Same conventions as `trips/ukraine-loop/` so a region and a trip share the shape
 
 When Phase 2 adds the ride, the region folder gains `route.json`, `site.json` and baked chunk data in the
 trip's own format, and the viewer already treats the two the same way.
+
+## The ride through a district (Phase 2)
+
+`trips/korosten` is the Korosten Raion trip: a 360 km loop (Korosten → Malyn → Narodychi → Ovruch → Olevsk →
+Korosten), baked with the same pipeline as the loop (`route.mjs` then `bake.mjs`), riding on the Polissya art kit.
+The wiring between the two systems is data, not code:
+
+- a region's `region.json` (and so its registry entry) may carry `"trip": "<id>"` — the id of the trip that rides
+  the district. The region screen then shows a «Поїхати» button that opens that trip's page.
+- `scripts/viewer.mjs` writes a `trips.json` into every built trip: the site's other trips, with a path relative
+  to that build. The start screen's «Маршрут» row and the region screen's «Поїхати» both read it; a build with no
+  other trips shows neither. The loop is the site's front page, every other trip is a folder of its own
+  (`/korosten/`), and a trip's `site.json` (`"id"`, `"title"`) says which one that build is.
+- a trip's `route.json` may carry `"world": "<id>"` (bake.mjs copies it into `data/index.json`): the open world's
+  room names, so riders of two different trips never land in one room.
+
+So the Korosten trip starts in Korosten (its start screen's «Старт» lists every place along the route — Korosten,
+Malyn, Narodychi, Ovruch, Olevsk and the villages between), is reachable from the region map's «Поїхати», and
+links back to the loop from its own start screen.
 
 ## Neighbours and the future oblast view
 
