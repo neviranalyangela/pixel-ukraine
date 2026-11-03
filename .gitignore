@@ -43,6 +43,7 @@ trips/*/sfx/
 trips/*/fonts/
 trips/*/vote.html
 trips/*/regions/
+trips/*/trips.json
 
 # your own deploy config (copied from deploy/wrangler.toml.example)
 deploy/wrangler.toml
