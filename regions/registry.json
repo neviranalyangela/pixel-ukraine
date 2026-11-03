@@ -1,0 +1,19 @@
+{
+  "regions": [
+    {
+      "id": "korosten",
+      "name": "Коростенський район",
+      "name_en": "Korosten Raion",
+      "oblast": "Житомирська область",
+      "path": "regions/korosten",
+      "box": [
+        27.3334,
+        50.6425,
+        29.5844,
+        51.6811
+      ],
+      "generated": "2026-11-03",
+      "source": "OpenStreetMap via Overpass (https://lz4.overpass-api.de/api/interpreter), 2026-11-03"
+    }
+  ]
+}

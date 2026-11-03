@@ -38,9 +38,11 @@ trips/*/art/cards/contact-sheet.png
 trips/*/index.html
 trips/*/road.js
 trips/*/layout.js
+trips/*/regionmap.js
 trips/*/sfx/
 trips/*/fonts/
 trips/*/vote.html
+trips/*/regions/
 
 # your own deploy config (copied from deploy/wrangler.toml.example)
 deploy/wrangler.toml

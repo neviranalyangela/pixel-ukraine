@@ -61,6 +61,8 @@ A web page that runs from any static server, with a small Node relay for multipl
 - **Radio:** 15 national stations and 53 city stations in 25 cities. `A` lets the radio follow the city you are in.
 - **The big map (`O`):** the whole loop with a postcard of each of the 20 cities. Click it to jump there, or open the
   same spot in Google Maps or Street View.
+- **The region maps (`K`):** zoomable pixel maps of whole districts, from Korosten Raion outward — every settlement,
+  river, road, rail line, forest and landmark on its real place, pinch to zoom, tap for the name ([REGIONS.md](REGIONS.md)).
 - **Rush hour in Kyiv:** jams by the hour, on the minimap and on the road.
 - **The city vote,** if you turn it on: players donate to a Monobank jar and the comment names a city for the route.
 
@@ -174,7 +176,20 @@ in `trips/ukraine-loop/site.json`, `{"posthog": "phc_..."}`, and build again. Th
 Worker's `/ph` proxy, keeps everything in memory only and never sends names or chat text. A `"support": "https://..."`
 entry in the same file puts a donation link on the start screen.
 
-### Bake a region
+### Bake a region (the district maps)
+
+The game also carries zoomable district maps, baked from OpenStreetMap the same way. Korosten Raion is in
+the repo; another district is a data folder plus one registry entry ([REGIONS.md](REGIONS.md) has the
+whole format):
+
+```sh
+node scripts/region.mjs --id korosten            # or your own: a region.json with the OSM relation id
+node scripts/viewer.mjs --trip trips/ukraine-loop --serve 8080
+```
+
+The region map opens in the game with **K**, the dock's ◱ or «Райони» on the big map.
+
+### Bake a route
 
 The baked map in `trips/ukraine-loop/data` comes from OpenStreetMap. To bake a new route, or to bake this one again with
 fresh data, run your own Overpass server. The public servers queue and rate-limit long bakes.
