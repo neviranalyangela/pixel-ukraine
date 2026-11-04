@@ -35,7 +35,7 @@ export const MAX_PLAYERS = 150, NEAR = 1000, NEAR_MAX = 30, CHAT_NEAR = 100000, 
 export const WORLDS = ['ukraine', 'korosten'];   // room bases cut into sections; any other name is one room (?room=NAME, a private room)
 // The route length of each world, fixed on the server (review 2026-10-14: one hi {len: 1000} re-cut the sections of a whole room). A page's len only
 // tells whether it rides the loop; in a private room the first valid len stays. Change it here when the trip's route changes (route.json total).
-export const WORLD_LEN = { ukraine: 5846355, korosten: 359980 };   // korosten: trips/korosten (the Korosten Raion loop)
+export const WORLD_LEN = { ukraine: 5846355, korosten: 341912 };   // korosten: trips/korosten (the Korosten Raion loop)
 // What a room forwards to a neighbour: the FWD_MAX riders nearest the border every tick, the FAR_MAX nearest with a roll call; a roll call carries at most
 // ROLL_FOREIGN_MAX riders of other rooms (those within CHAT_NEAR + HYST of a rider here). A rename or a radio line goes out at most every CAST_EVERY ms
 // per rider (the latest one waits), and no radio at all in the open world (its pages ignore it). A rider with no pos for STALE_V ms (a hidden tab,

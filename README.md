@@ -63,8 +63,9 @@ A web page that runs from any static server, with a small Node relay for multipl
   same spot in Google Maps or Street View.
 - **The region maps (`K`):** zoomable pixel maps of whole districts, from Korosten Raion outward — every settlement,
   river, road, rail line, forest and landmark on its real place, pinch to zoom, tap for the name ([REGIONS.md](REGIONS.md)).
-- **The district ride:** `trips/korosten`, a 360 km loop of Korosten Raion — Korosten, Malyn, Narodychi, Ovruch and
-  Olevsk — baked from OpenStreetMap like the loop, with the Polissya kit. The region map's «Поїхати» and the start
+- **The district ride:** `trips/korosten`, a 342 km loop of Korosten Raion — Korosten, Malyn, Narodychi, Ovruch and
+  Olevsk, the last reached over a northern village corridor (Velyka Khaicha, Stari Velidnyky, Zamyslovychi,
+  Tepenitsya) — baked from OpenStreetMap like the loop, with the Polissya kit. The region map's «Поїхати» and the start
   screen's «Маршрут» row lead into it (and back).
 - **Rush hour in Kyiv:** jams by the hour, on the minimap and on the road.
 - **The city vote,** if you turn it on: players donate to a Monobank jar and the comment names a city for the route.

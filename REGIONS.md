@@ -106,8 +106,11 @@ trip's own format, and the viewer already treats the two the same way.
 
 ## The ride through a district (Phase 2)
 
-`trips/korosten` is the Korosten Raion trip: a 360 km loop (Korosten → Malyn → Narodychi → Ovruch → Olevsk →
-Korosten), baked with the same pipeline as the loop (`route.mjs` then `bake.mjs`), riding on the Polissya art kit.
+`trips/korosten` is the Korosten Raion trip: a 342 km loop (Korosten → Malyn → Narodychi → Ovruch → Velyka Khaicha →
+Stari Velidnyky → Zamyslovychi → Tepenitsya → Olevsk → Korosten), baked with the same pipeline as the loop
+(`route.mjs` then `bake.mjs`), riding on the Polissya art kit. Between Ovruch and Olevsk it rides the northern village
+corridor instead of the highway detour via Korosten — the detour dipped south of the city and retraced ~79% of the
+final Olevsk → Korosten leg.
 The wiring between the two systems is data, not code:
 
 - a region's `region.json` (and so its registry entry) may carry `"trip": "<id>"` — the id of the trip that rides
