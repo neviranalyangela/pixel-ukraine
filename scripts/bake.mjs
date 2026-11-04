@@ -262,7 +262,7 @@ const allPlaces = []; for (let c = 0; c < NCH; c++) { const f = join(OUT, `c${St
 const along = []; for (const p of allPlaces.sort((a, b) => a[0] - b[0])) { const prev = along.at(-1); if (p[2] < 0.5 || along.some(q => q[1] === p[1])) continue; if (prev && p[0] - prev[0] < Math.max(1500, TOTAL / 60)) { if (p[2] > prev[2]) along[along.length - 1] = p; continue; } along.push(p); }
 const all = []; for (let c = 0; c < NCH; c++) { const f = join(OUT, `c${String(c).padStart(4, '0')}.json`); if (existsSync(f)) all.push(JSON.parse(readFileSync(f, 'utf8')).summary); }
 writeJSON(join(OUT, 'index.json'), {
-  title: `${R.from} to ${R.to}`, from: R.from, to: R.to, stops: R.stops, total: Math.round(TOTAL), chunk: CH, step: STEP, count: NCH, country: R.country || null, sea: SEA.length ? SEA : undefined,
+  title: `${R.from} to ${R.to}`, from: R.from, to: R.to, stops: R.stops, total: Math.round(TOTAL), chunk: CH, step: STEP, count: NCH, country: R.country || null, world: R.world || null, sea: SEA.length ? SEA : undefined,
   drive: A.drive || R.drive || 'right', units: A.units || R.units || 'km', centre: A['centre-line'] || R.centre || 'white', dry: DRY,
   line: encodeLine(simplify(line, Math.max(20, TOTAL / 4000))), places: along.map(p => [Math.round(p[0]), p[1], p[2]]), chunks: all,
   credits: ['Map data © OpenStreetMap contributors (ODbL), openstreetmap.org/copyright', R.source.split(';')[0], 'Elevation: Terrain Tiles (Mapzen/Tilezen on AWS Open Data; SRTM, GMTED, ETOPO1 and others)', 'Landmarks: Wikidata (CC0)'],

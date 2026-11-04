@@ -35,6 +35,7 @@ trips/*/art/contact.png
 trips/*/art/cards/contact-sheet.png
 
 # built by scripts/viewer.mjs from templates/ (run it before you play)
+dist/
 trips/*/index.html
 trips/*/road.js
 trips/*/layout.js
@@ -43,6 +44,7 @@ trips/*/sfx/
 trips/*/fonts/
 trips/*/vote.html
 trips/*/regions/
+trips/*/trips.json
 
 # your own deploy config (copied from deploy/wrangler.toml.example)
 deploy/wrangler.toml

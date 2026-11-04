@@ -200,6 +200,9 @@
   .ld-field select, .ld-field input[type=text] { display: block; width: 100%; min-height: 46px; margin: 0; padding: 11px 12px; border: 0; border-radius: 0; background-color: var(--panel2); color: var(--ink); font: 16px/1.2 'Roboto Condensed', 'Arial Narrow', sans-serif; appearance: none; -webkit-appearance: none; }
   .ld-field select { padding-right: 38px; text-overflow: ellipsis; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 7 4' shape-rendering='crispEdges'%3E%3Cpath fill='%23f2c230' d='M0 0h7v1H6v1H5v1H4v1H3V3H2V2H1V1H0z'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 12px center; background-size: 14px 8px; }
   .ld-field select:disabled { color: var(--muted); }
+  .ld-trips { display: flex; flex-wrap: wrap; gap: 10px; }
+  .ld-trips a { display: inline-flex; align-items: center; min-height: 46px; margin: 0; padding: 10px 16px; border: 0; background: var(--panel2); color: var(--ink); font: 700 16px/1.2 var(--cap); letter-spacing: .04em; text-transform: uppercase; text-decoration: none; cursor: pointer; }
+  .ld-trips a:hover, .ld-trips a:focus-visible { background: var(--acc); color: var(--acc-ink); }
   .ld-field input::placeholder { color: #988a75; opacity: 1; }
   #st-veh { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px; }
   #st-veh .opt { position: relative; display: grid; place-items: center; height: 66px; margin: 0; padding: 4px; border: 0; border-radius: 0; background: var(--panel2); color: var(--ink); cursor: pointer; transition: transform 160ms var(--out); -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
@@ -405,6 +408,8 @@ if (PHC.key && !/[?&]ph=0\b/.test(location.search)) { !function(t,e){var o,n,p,r
     </section>
     <section class="ld-card ld-setup" id="card" aria-labelledby="ld-setup-h" data-in style="--i:5">
       <h2 class="ld-sr" id="ld-setup-h">Налаштування поїздки</h2>
+      <div class="ld-field" id="st-trips-f" hidden><span class="ld-label" id="st-trips-l">Маршрут</span>
+        <nav id="st-trips" class="ld-trips" aria-labelledby="st-trips-l"></nav></div>
       <div class="ld-field"><span class="ld-label" id="ld-veh-l">Транспорт <b id="ld-veh-n">скутер</b></span>
         <div id="st-veh" role="group" aria-labelledby="ld-veh-l"></div></div>
       <div class="ld-row2">
@@ -639,6 +644,13 @@ if (PHC.key && !/[?&]ph=0\b/.test(location.search)) { !function(t,e){var o,n,p,r
       else if (p.role === 'tree' || p.role === 'bush') { want.t++; jobs.push(img(p.file).then(im => { if (im) SC.trees.push(p.role === 'bush' ? half(im) : im); check(); })); }
       else if (p.role === 'street') { want.p++; jobs.push(img(p.file).then(im => { if (im) SC.props.push(half(im)); check(); })); } }
     Promise.all(jobs).then(() => { if (!SC.far || Math.min(3, SC.towers.length) !== SC.farN) SC.far = paintFar(); show(); if (!SC.run) draw(); });   // repainted only if a tower came late
+  });
+  // the other trips this site carries (trips.json, written by viewer.mjs): a pill per route on the setup card. A single-trip
+  // site has no file, the row stays hidden — nothing else changes.
+  fetch('trips.json').then(r => r.ok ? r.json() : null).catch(() => null).then(list => {
+    if (!Array.isArray(list) || !list.length) return;
+    const box = $('st-trips'); $('st-trips-f').hidden = false;
+    for (const t of list) { const a = document.createElement('a'); a.className = 'ld-px2'; a.href = t.path; a.textContent = t.title || t.id; box.appendChild(a); }
   });
   setTimeout(show, 2500);   // slow pictures: start with what came
   L.vehicle = v => { const n = VEH[v] ? v : 'walk'; if (n === SC.veh) return; SC.veh = n; SC.vt = SPEED[n];
@@ -1252,7 +1264,7 @@ function introEnd() { INTRO.on = false; road.setLift(0); road.setRig({}); road.s
 // hands over 2 km past a border (the new socket first, then the old one closes: no gap in the riders) and goes to the copy a full room names
 // ('ukraine-s3-2', «Харків #2» in the party header). The rooms pass each other the riders near a border and the chat lines, so the road has no seams;
 // the roll call carries the count of every section (the overview shows them, the party header the total «на дорозі N»).
-const WORLD = 'ukraine', SEC = 500000, HYST = 2000, NSEC = Math.max(1, Math.ceil(LEN / SEC));
+const WORLD = IDX.world || 'ukraine', SEC = 500000, HYST = 2000, NSEC = Math.max(1, Math.ceil(LEN / SEC));   // IDX.world (route.json's "world"): every trip's open world is its own, so riders of two trips never share a room
 const SECNAME = Array.from({ length: NSEC }, (_, k) => { const lo = k * SEC, hi = Math.min(LEN - 1, (k + 1) * SEC), st = (IDX.stops || []).find(x => x.at >= lo && x.at < hi); if (st) return st.name.split(',')[0];
   const pl = (IDX.places || []).filter(p => p[0] >= lo && p[0] < hi).sort((a, b) => b[2] - a[2])[0]; return pl ? pl[1] : `${k * 500} км`; });   // a section is called by its first stop, else its biggest place
 const secOf = s => Math.min(NSEC - 1, Math.floor(Math.max(0, s) / SEC)), secRoom = (k, c = 1) => `${WORLD}-s${k}${c > 1 ? '-' + c : ''}`;

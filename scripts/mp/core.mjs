@@ -32,10 +32,10 @@ export const MAX_PLAYERS = 150, NEAR = 1000, NEAR_MAX = 30, CHAT_NEAR = 100000, 
   FWD = NEAR + HYST + 500, FOREIGN_TTL = 1000, FAR_TTL = 5000, REPORT_EVERY = 2000, HUB_TTL = 15000, MAX_COPIES = 20, MSG_PER_S = 60,
   FWD_MAX = 30, FAR_MAX = 200, ROLL_FOREIGN_MAX = 300, CAST_EVERY = 2000, STALE_V = 2000, JOIN_MS = 1500, ROSTER_MAX = 150, ROSTER_NAME = 16, WORLD_MAX = 2000,
   COLS = ['#ffd23f', '#5ad1ff', '#ff6b6b', '#7cff8a', '#ff9f43', '#d08cff', '#4ef0c2', '#ff7be5', '#c8ff5a', '#ffb3b3'];
-export const WORLDS = ['ukraine'];   // room bases cut into sections; any other name is one room (?room=NAME, a private room)
+export const WORLDS = ['ukraine', 'korosten'];   // room bases cut into sections; any other name is one room (?room=NAME, a private room)
 // The route length of each world, fixed on the server (review 2026-10-14: one hi {len: 1000} re-cut the sections of a whole room). A page's len only
 // tells whether it rides the loop; in a private room the first valid len stays. Change it here when the trip's route changes (route.json total).
-export const WORLD_LEN = { ukraine: 5846355 };
+export const WORLD_LEN = { ukraine: 5846355, korosten: 341912 };   // korosten: trips/korosten (the Korosten Raion loop)
 // What a room forwards to a neighbour: the FWD_MAX riders nearest the border every tick, the FAR_MAX nearest with a roll call; a roll call carries at most
 // ROLL_FOREIGN_MAX riders of other rooms (those within CHAT_NEAR + HYST of a rider here). A rename or a radio line goes out at most every CAST_EVERY ms
 // per rider (the latest one waits), and no radio at all in the open world (its pages ignore it). A rider with no pos for STALE_V ms (a hidden tab,

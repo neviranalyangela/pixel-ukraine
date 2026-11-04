@@ -1,0 +1,150 @@
+[
+  {
+    "name": "БС-3",
+    "qid": "Q370036",
+    "kind": "monument",
+    "s": 149158,
+    "side": 185,
+    "h": 12,
+    "w": 8,
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 18,
+    "desc": "anti-tank and field gun",
+    "score": 10.92
+  },
+  {
+    "name": "Героям Небесної Сотні",
+    "qid": "Q15642845",
+    "kind": "monument",
+    "s": 56444,
+    "side": -438,
+    "h": 12,
+    "w": 8,
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 17,
+    "desc": "people who have been killed during the 2013–2014 protests in Ukraine",
+    "score": 6.54
+  },
+  {
+    "name": "Су-7БМ",
+    "qid": "Q645903",
+    "kind": "monument",
+    "s": 148954,
+    "side": 1023,
+    "h": 12,
+    "w": 8,
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 29,
+    "desc": "1943 self-propelled 76 mm gun",
+    "score": 5.89
+  },
+  {
+    "name": "Свято-Покровська церква Російської Православної Церкви За Кордоном под омофором Агафангела",
+    "qid": "Q111337208",
+    "kind": "church",
+    "s": 56723,
+    "side": -31,
+    "h": 35,
+    "w": 30,
+    "tags": {
+      "building": "church"
+    },
+    "links": 2,
+    "desc": "",
+    "score": 2.67
+  },
+  {
+    "name": "Князь Мал",
+    "qid": "Q2361453",
+    "kind": "monument",
+    "s": 57307,
+    "side": -750,
+    "h": 12,
+    "w": 8,
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 9,
+    "desc": "10th century Slavic noble",
+    "score": 2.5
+  },
+  {
+    "name": "Володимир Великий",
+    "qid": "Q30974830",
+    "kind": "monument",
+    "s": 333,
+    "side": 76,
+    "h": 12,
+    "w": 8,
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 1,
+    "desc": "monument in Korosten, Ukraine",
+    "score": 1.53
+  },
+  {
+    "name": "Олевськ",
+    "qid": "Q16709893",
+    "kind": "station",
+    "s": 255090,
+    "side": 574,
+    "h": 15,
+    "w": 70,
+    "tags": {},
+    "links": 4,
+    "desc": "railway station in Olevsk, Ukraine",
+    "score": 1.52
+  },
+  {
+    "name": "Древлянський парк",
+    "qid": "Q97198659",
+    "kind": "attraction",
+    "s": 341,
+    "side": 234,
+    "h": 15,
+    "w": 30,
+    "tags": {
+      "tourism": "attraction"
+    },
+    "links": 1,
+    "desc": "",
+    "score": 1.03
+  },
+  {
+    "name": "Княгиня Ольга",
+    "qid": "Q30962977",
+    "kind": "monument",
+    "s": 393,
+    "side": 272,
+    "h": 12,
+    "w": 8,
+    "tags": {
+      "historic": "memorial"
+    },
+    "links": 1,
+    "desc": "monument in Korosten, Ukraine",
+    "score": 0.96
+  },
+  {
+    "name": "Древлянські джерела",
+    "qid": "Q124758177",
+    "kind": "museum",
+    "s": 149022,
+    "side": 383,
+    "h": 20,
+    "w": 50,
+    "tags": {
+      "tourism": "museum"
+    },
+    "links": 1,
+    "desc": "",
+    "score": 0.79
+  }
+]

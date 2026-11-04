@@ -1,9 +1,14 @@
 # Deploy the playable Pixel Ukraine site to GitHub Pages.
 # The repo root is not a playable site: the playable site is a BUILT trip.
-# This workflow copies the already-baked trips/ukraine-loop (data, art, route,
-# site) into dist/, runs scripts/viewer.mjs install() on it (which copies in
-# templates/viewer.html, road.js, layout.js, regionmap.js, regions/, fonts/,
-# sfx/), and deploys dist/ via GitHub Pages. No re-bake, no secrets.
+# This workflow copies the already-baked trips into dist/, runs
+# scripts/viewer.mjs install() on each (which copies in templates/viewer.html,
+# road.js, layout.js, regionmap.js, regions/, fonts/, sfx/, and writes
+# trips.json — the cross-links between the trips), and deploys dist/ via
+# GitHub Pages. No re-bake, no secrets.
+#
+# Site layout: ukraine-loop is the front page ('/'); every other trip is a
+# folder of its own ('/korosten/'). That convention lives in viewer.mjs —
+# add a trip folder under trips/ and one install() line here.
 name: Deploy to GitHub Pages
 
 on:
@@ -31,8 +36,12 @@ jobs:
       - name: Build playable site
         run: |
           cp -r trips/ukraine-loop dist
-          node -e "import('./scripts/viewer.mjs').then(async m => { await m.install('dist'); })"
+          cp -r trips/korosten dist/korosten
+          node -e "import('./scripts/viewer.mjs').then(async m => { await m.install('dist'); await m.install('dist/korosten'); })"
           test -f dist/index.html
+          test -f dist/trips.json
+          test -f dist/korosten/index.html
+          test -f dist/korosten/trips.json
           test -f dist/regionmap.js
           test -f dist/regions/registry.json
       - uses: actions/upload-pages-artifact@v3
